@@ -6,9 +6,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.hero-wrapper {
-  background-image: url('./assets/jalousien.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: calc(100vh - 9.5rem);
+@layer utilities {
+  .hero-wrapper {
+    background-image: url('../assets/jalousien.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: calc(100vh - 9.5rem);
+  }
+}
+
+.action-link {
+  @apply font-semibold text-blue-400 hover:text-blue-500 transition-colors;
 }

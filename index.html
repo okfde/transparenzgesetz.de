@@ -8,10 +8,12 @@
   </head>
   <body class="font-sans">
     <div class="flex flex-col">
-      <header class="max-w-screen-lg w-full mx-auto px-4 md:px-8 py-16">
+      <header class="max-w-screen-lg w-full mx-auto px-4 md:px-8 py-8 md:py-16">
         <nav class="flex">
-          <h1 class="mr-8 text-cyan-900">Transparenzgesetz.de</h1>
-          <ul class="flex ml-auto text-gray-700">
+          <h1 class="mr-8 text-cyan-900 text-sm md:text-base">
+            Transparenzgesetz.de
+          </h1>
+          <ul class="hidden md:flex ml-auto text-gray-700">
             <li class="mr-4"><a href="#forderungen">Forderungen</a></li>
             <li class="mr-4"><a href="#buendnis">Bündnis</a></li>
             <li><a href="#kontakt">Kontakt</a></li>
@@ -19,23 +21,34 @@
         </nav>
       </header>
       <main>
-        <div class="hero-wrapper">
+        <div class="xl:hero-wrapper">
           <div class="max-w-screen-lg mx-auto w-full px-4 md:px-8">
-            <section class="max-w-[80ch] space-y-8">
-              <p class="text-xl md:text-3xl">
-                Die Bundesregierung hat zwar ein Transparenzgesetz versprochen,
-                aber konkrete Planungen gibt es nicht.
-              </p>
-              <p
-                class="text-3xl md:text-5xl font-bold bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent"
-              >
-                Deswegen legen wir jetzt selbst eines vor.
-              </p>
-              <p>
-                <a href="#kernpunkte" class="text-blue-400 font-semibold">
-                  ↓ Jetzt lesen
-                </a>
-              </p>
+            <section class="md:flex">
+              <div class="max-w-[80ch] space-y-4 md:space-y-8">
+                <p class="text-xl md:text-3xl">
+                  Die Bundesregierung hat zwar ein Transparenzgesetz
+                  versprochen, aber konkrete Planungen gibt es nicht.
+                </p>
+                <p
+                  class="text-3xl md:text-5xl font-bold bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent"
+                >
+                  Deswegen legen wir jetzt selbst eines vor.
+                </p>
+                <p class="motion-safe:animate-bounce">
+                  <a href="#kernpunkte" class="action-link"> ↓ Jetzt lesen </a>
+                </p>
+              </div>
+
+              <div class="md:max-w-xs lg:max-w-lg">
+                <img
+                  src="./assets/jalousien-lupe.png"
+                  class="block xl:hidden w-full mt-8 md:mt-0"
+                  alt=""
+                  width="512"
+                  height="520"
+                  loading="lazy"
+                />
+              </div>
             </section>
           </div>
         </div>
@@ -162,7 +175,7 @@
             </div>
           </div>
 
-          <a href="#!" class="text-blue-500 font-semibold">
+          <a href="#!" class="action-link">
             → gesamten Gesetzesentwurf lesen
           </a>
         </section>
@@ -183,10 +196,21 @@
 
     <footer class="bg-gray-100 mt-8">
       <div
-        class="flex flex-col md:flex-row max-w-screen-lg mx-auto w-full px-4 md:px-8 py-8 text-center md:text-left"
+        class="flex flex-col md:flex-row max-w-screen-lg mx-auto w-full px-4 md:px-8 py-8"
       >
         <div class="text-gray-800">
-          Ein Projekt von FragDenStaat und Mehr Demokratie.
+          <p>
+            Ein Projekt von FragDenStaat und Mehr Demokratie.
+            <br />
+            Foto:
+            <a
+              href="https://unsplash.com/@iam_robin"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Robin Spielmann
+            </a>
+          </p>
         </div>
         <div class="md:ml-auto mt-4 md:mt-0">
           <a href="#!" class="mr-4">Impressum</a>

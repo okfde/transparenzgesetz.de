@@ -2,7 +2,7 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html'],
+  content: ['./src/**/*.astro'],
   theme: {
     extend: {
       fontFamily: {

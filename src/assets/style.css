@@ -8,7 +8,7 @@
 
 @layer utilities {
   .hero-wrapper {
-    background-image: url('../assets/jalousien.jpg');
+    background-image: url('./jalousien.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;

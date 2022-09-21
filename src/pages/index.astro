@@ -1,0 +1,42 @@
+---
+import '../assets/style.css';
+
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import HomeHero from '../components/HomeHero.astro';
+import HomeTakeaways from '../components/HomeTakeaways.astro';
+---
+
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body class="font-sans">
+    <div class="flex flex-col">
+      <Header />
+
+      <main>
+        <HomeHero />
+
+        <HomeTakeaways />
+
+        <section class="max-w-screen-lg mx-auto w-full px-4 md:px-8 mb-8">
+          <h2 class="text-2xl font-semibold">Bündnispartner*innen</h2>
+
+          logos
+        </section>
+
+        <section class="max-w-screen-lg mx-auto w-full px-4 md:px-8">
+          <h2 class="text-2xl font-semibold">Kontakt</h2>
+
+          logos
+        </section>
+      </main>
+    </div>
+
+    <Footer />
+  </body>
+</html>

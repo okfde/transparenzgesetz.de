@@ -1,0 +1,33 @@
+---
+import takeaways from '../data/keyTakeaways.yaml';
+---
+
+<section
+  class="max-w-screen-lg mx-auto w-full px-4 md:px-8 py-16"
+  id="kernpunkte"
+>
+  <h2 class="text-2xl font-semibold">Die Kernpunkte in Kürze</h2>
+
+  <ol class="grid md:grid-cols-2 gap-4 my-8">
+    {
+      takeaways.map((takeaway, i) => (
+        <li class="border rounded shadow-sm p-4">
+          <div class="flex">
+            <div
+              class="rounded-full bg-blue-100 text-blue-900 mr-4 w-8 h-8 flex items-center justify-center shrink-0"
+              aria-hidden="true"
+            >
+              {i + 1}
+            </div>
+            <div>
+              <h3 class="font-semibold text-lg mb-1">{takeaway.title}</h3>
+              <p>{takeaway.description}</p>
+            </div>
+          </div>
+        </li>
+      ))
+    }
+  </ol>
+
+  <a href="#!" class="action-link">→ gesamten Gesetzesentwurf lesen</a>
+</section>

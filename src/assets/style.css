@@ -16,6 +16,10 @@
   }
 }
 
+a {
+  @apply transition-colors;
+}
+
 .action-link {
-  @apply font-semibold text-blue-400 hover:text-blue-500 transition-colors;
+  @apply font-semibold text-blue-500 hover:text-blue-400;
 }

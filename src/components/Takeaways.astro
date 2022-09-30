@@ -1,0 +1,39 @@
+---
+import Section from './Section.astro';
+import Icon from './Icon.astro';
+import takeaways from '../data/keyTakeaways.yaml';
+---
+
+<div id="kernpunkte">
+  <Section>
+    <h2 class="text-2xl font-semibold">Die Kernpunkte in Kürze</h2>
+
+    <ol class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12 my-8 mt-16">
+      {
+        takeaways.map((takeaway, i) => (
+          <li class="border rounded shadow p-4">
+            <div class="flex justify-start">
+              <div
+                class="rounded-full bg-gray-100 text-blue-500 mr-4 w-16 h-16 -mt-12 flex items-center justify-center shadow-sm"
+                aria-hidden="true"
+              >
+                {takeaway.icon ? (
+                  <Icon name={takeaway.icon} class="m-3" />
+                ) : undefined}
+              </div>
+            </div>
+
+            <div class="mt-3 hyphens-auto">
+              <h3 class="font-semibold text-lg mb-1">{takeaway.title}</h3>
+              <p>{takeaway.description}</p>
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+
+    <a href="#!" class="action-link">
+      <Icon name="arrow-right" /> gesamten Gesetzesentwurf lesen
+    </a>
+  </Section>
+</div>

@@ -11,12 +11,14 @@
   },
   "devDependencies": {
     "@astrojs/tailwind": "^2.0.1",
+    "@iconify-json/mdi": "^1.1.33",
     "@rollup/plugin-yaml": "^3.1.0",
     "astro": "^1.2.8",
     "autoprefixer": "^10.4.11",
     "postcss": "^8.4.16",
     "prettier": "^2.7.1",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.0.24",
+    "unplugin-icons": "^0.14.11"
   },
   "dependencies": {
     "@fontsource/inter": "^4.5.12"

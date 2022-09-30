@@ -23,3 +23,7 @@ a {
 .action-link {
   @apply font-semibold text-blue-500 hover:text-blue-400;
 }
+
+.hyphens-auto {
+  hyphens: auto;
+}

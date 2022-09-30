@@ -1,0 +1,15 @@
+---
+import icons from '@iconify-json/mdi/icons.json';
+
+interface Props {
+  name: string;
+  class?: any;
+}
+
+const { name, class: classes } = Astro.props;
+---
+
+<svg
+  class:list={classes ?? 'w-[1em] h-[1em] inline'}
+  viewBox="0 0 24 24"
+  set:html={icons.icons[name]?.body}></svg>

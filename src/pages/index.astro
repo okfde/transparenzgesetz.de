@@ -3,6 +3,9 @@ import '../assets/style.css';
 
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Hero from '../components/Hero.astro';
+import Takeaways from '../components/Takeaways.astro';
+import Section from '../components/Section.astro';
 import HomeHero from '../components/HomeHero.astro';
 import HomeTakeaways from '../components/HomeTakeaways.astro';
 ---
@@ -19,21 +22,23 @@ import HomeTakeaways from '../components/HomeTakeaways.astro';
       <Header />
 
       <main>
-        <HomeHero />
+        <Hero />
 
         <HomeTakeaways />
 
-        <section class="max-w-screen-lg mx-auto w-full px-4 md:px-8 mb-8">
+        <Takeaways />
+
+        <Section>
           <h2 class="text-2xl font-semibold">Bündnispartner*innen</h2>
 
           logos
-        </section>
+        </Section>
 
-        <section class="max-w-screen-lg mx-auto w-full px-4 md:px-8">
+        <Section>
           <h2 class="text-2xl font-semibold">Kontakt</h2>
 
           logos
-        </section>
+        </Section>
       </main>
     </div>
 

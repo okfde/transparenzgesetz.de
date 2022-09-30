@@ -1,0 +1,21 @@
+<div class="prose max-w-[45em]">
+  <slot />
+</div>
+
+<style>
+  .prose :global(h2) {
+    @apply text-2xl font-semibold;
+  }
+
+  .prose :global(p) {
+    @apply mb-3;
+  }
+
+  .prose :global(ul) {
+    @apply list-disc ml-8;
+  }
+
+  .prose :global(li) {
+    @apply mb-1;
+  }
+</style>

@@ -1,18 +1,27 @@
-- title: Keine Gnade bei Ausnahmen
-  description: Nostrud aute mollit tempor proident enim nulla nisi minim
-    exercitation officia.
-- title: Keine Gnade bei Ausnahmen
-  description: Nostrud aute mollit tempor proident enim nulla nisi minim
-    exercitation officia. Ex consequat sit magna. Ex consequat sit magna.
-- title: Keine Gnade bei Ausnahmen
-  description: Nostrud aute mollit tempor proident enim nulla nisi minim
-    exercitation officia.
-- title: Keine Gnade bei Ausnahmen
-  description: Nostrud aute mollit tempor proident enim nulla nisi minim
-    exercitation officia.
-- title: Keine Gnade bei Ausnahmen
-  description: Nostrud aute mollit tempor proident enim nulla nisi minim
-    exercitation officia.
-- title: Keine Gnade bei Ausnahmen
-  description: Nostrud aute mollit tempor proident enim nulla nisi minim
-    exercitation officia.
+- title: Weiter Anwendungsbereich
+  description: Nicht nur die Verwaltung, auch bestimmte Unternehmen fallen unter das Gesetz. Viele Aufgaben des Staates werden an privatrechtliche Unternehmen ausgelagert. Diese sind bisher nicht immer umfasst und werden durch den Gesetzentwurf transparent.
+  icon: broadcast
+- title: Vereinfachung der Gesetzeslage
+  description: Bisher werden Informationsansprüche nach Umweltinformationsgesetz und Informationsfreiheitsgesetz z. T. sehr verschieden geregelt. Der Gesetzesvorschlag führt beide Gesetze zusammen.
+  icon: lightbulb-outline
+- title: Aktive Informationspflicht
+  description: Die Behörden müssen bestimmte Informationen, etwa Verträge der öffentlichen Hand jenseits einer Summe von 100.000 EUR, Gutachten und Studien sowie Subventionszahlungen, online veröffentlichen.
+  icon: publish
+- title: Ausnahmen eng gefasst
+  description: Natürlich sieht das Gesetz Ausnahmen vom Grundsatz der Transparenz vor, etwa zum Schutz von personenbezogenen Daten oder zur Wahrung von Betriebs- und Geschäftsheimnissen. Diese Ausnahmen werden eng gefasst, um einer missbräuchlichen Informationsblockade vorzubeugen.
+  icon: wall
+- title: Abwägungsklausel
+  description: Ausnahmen vom Grundsatz der Transparenz dürfen nicht greifen, wenn das öffentliche Interesse an der Information schwerer wiegt als mögliche Geheimhaltungsgründe.
+  icon: compare-horizontal
+- title: Vorrang für Information
+  description: Spezialregelungen nach anderen Gesetzen gehen nur dann vor, wenn sie weiterreichende Rechte für die Antragsstellendenzeinräumen. Das Transparenzgesetz definiert einen Mindeststandard.
+  icon: priority-high
+- title: Bürgerfreundlichkeit
+  description: Die Verfahrensregeln werden so gestaltet, dass alle das Gesetz nutzen können. Deshalb sind Informationen, für die ein Antrag gestellt werden muss, gebührenfreiherauszugeben, bei einer Antwortfrist von 15 Werktagen. Der Zugang zu den Online-Informationen ist barrierefrei zu gestalten.
+  icon: account-group
+- title: Rechtsschutz
+  description: Wer mit der Reaktion der öffentlichen Stelle nicht zufrieden ist, kann wählen, ob er oder sie zunächst Widerspruch erheben oder sofort dagegen klagen möchte. So wird bei strittigen Fällen der Entscheidungsweg verkürzt. Bei Streitigkeiten über Geheimhaltungspflichten kann das Gericht schon im Hauptsachverfahren überprüfen, ob die angeführten Gründe zutreffen. Nach bisherigem Recht passiert dies in einem gesonderten Verfahren, was zusätzliche Zeit kostet.
+  icon: scale-balance
+- title: Ombudsrolle
+  description: Der oder die Bundesbeauftragte für die Informationsfreiheit kann in Konfliktfällen zur kostenlosen Vermittlung angerufen werden. Während der Prüfung ruhen die Widerspruchs- und Klagefristen, die Antragstellende normalerweise zu beachten haben, bis das Prüfergebnis vorliegt.
+  icon: face-agent

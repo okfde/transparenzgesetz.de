@@ -1,7 +1,6 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import yaml from '@rollup/plugin-yaml';
-import icons from 'unplugin-icons/vite';
 
 export default defineConfig({
   base: '/transparenzgesetz.de', // for github pages testing
@@ -11,6 +10,6 @@ export default defineConfig({
     })
   ],
   vite: {
-    plugins: [yaml(), icons({ compiler: 'raw' })]
+    plugins: [yaml()]
   }
 });

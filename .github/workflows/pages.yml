@@ -44,11 +44,7 @@ jobs:
         run: pnpm install
       - name: Build site
         run: pnpm run build --base=/transparenzgesetz.de/
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # Upload entire repository
-          path: './dist'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+          folder: dist

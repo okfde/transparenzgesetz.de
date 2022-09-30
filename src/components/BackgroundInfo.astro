@@ -6,8 +6,20 @@ import Prose from './Prose.astro';
 
 <div id="hintergrund">
   <Section>
-    <Prose>
-      <div set:html={backgroundInfo.compiledContent()}></div>
-    </Prose>
+    <div class="flex">
+      <Prose>
+        <div set:html={backgroundInfo.compiledContent()}></div>
+      </Prose>
+      <div class="hidden md:block dots flex-1 ml-24 opacity-5"></div>
+    </div>
   </Section>
 </div>
+
+<style>
+  .dots {
+    background: url("data:image/svg+xml;utf8,<svg stroke-miterlimit='10' style='fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round' viewBox='0 0 500 1000' xml:space='preserve' xmlns='http://www.w3.org/2000/svg'><path d='M217.086 122c52.514 0 95.085 42.571 95.085 95.086 0 23.552-8.63 45.202-22.82 61.879l3.95 3.949h11.556L378 356.057 356.057 378l-73.143-73.143v-11.556l-3.949-3.95c-16.677 14.19-38.327 22.82-61.879 22.82-52.515 0-95.086-42.571-95.086-95.085C122 164.571 164.571 122 217.086 122m0 29.257c-36.572 0-65.829 29.257-65.829 65.829 0 36.571 29.257 65.828 65.829 65.828 36.571 0 65.828-29.257 65.828-65.828 0-36.572-29.257-65.829-65.828-65.829ZM282.914 884c-52.514 0-95.085-42.571-95.085-95.086 0-23.552 8.63-45.202 22.82-61.879l-3.95-3.949h-11.556L122 649.943 143.943 628l73.143 73.143v11.556l3.949 3.95c16.677-14.19 38.327-22.82 61.879-22.82 52.515 0 95.086 42.571 95.086 95.085C378 841.429 335.429 884 282.914 884m0-29.257c36.572 0 65.829-29.257 65.829-65.829 0-36.571-29.257-65.828-65.829-65.828-36.571 0-65.828 29.257-65.828 65.828 0 36.572 29.257 65.829 65.828 65.829Z'/></svg>");
+    background-size: 50%;
+    background-repeat: repeat-y;
+    background-position: top;
+  }
+</style>

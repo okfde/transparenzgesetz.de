@@ -4,11 +4,11 @@
 
 <style>
   .prose :global(h2) {
-    @apply text-2xl font-semibold;
+    @apply text-2xl font-semibold mb-3 mt-12;
   }
 
   .prose :global(p) {
-    @apply mb-3;
+    @apply mb-3 leading-7;
   }
 
   .prose :global(ul) {
@@ -17,5 +17,9 @@
 
   .prose :global(li) {
     @apply mb-1;
+  }
+
+  .prose :global(blockquote) {
+    @apply border-l-4 border-blue-500 pl-4 bg-gray-50 mt-3 pt-3 pb-1 my-2;
   }
 </style>

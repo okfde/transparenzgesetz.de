@@ -6,8 +6,7 @@ import Footer from '../components/Footer.astro';
 import Hero from '../components/Hero.astro';
 import Takeaways from '../components/Takeaways.astro';
 import Section from '../components/Section.astro';
-import HomeHero from '../components/HomeHero.astro';
-import HomeTakeaways from '../components/HomeTakeaways.astro';
+import BackgroundInfo from '../components/BackgroundInfo.astro';
 ---
 
 <!DOCTYPE html>
@@ -17,16 +16,16 @@ import HomeTakeaways from '../components/HomeTakeaways.astro';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body class="font-sans">
+  <body class="font-sans" aria-haspopup="dialog">
     <div class="flex flex-col">
       <Header />
 
       <main>
         <Hero />
 
-        <HomeTakeaways />
-
         <Takeaways />
+
+        <BackgroundInfo />
 
         <Section>
           <h2 class="text-2xl font-semibold">Bündnispartner*innen</h2>

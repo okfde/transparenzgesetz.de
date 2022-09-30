@@ -1,0 +1,11 @@
+---
+import Section from './Section.astro';
+import * as backgroundInfo from '../data/backgroundInfo.md';
+import Prose from './Prose.astro';
+---
+
+<Section>
+  <Prose>
+    <div set:html={backgroundInfo.compiledContent()}></div>
+  </Prose>
+</Section>

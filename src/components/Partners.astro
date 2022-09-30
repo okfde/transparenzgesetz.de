@@ -2,10 +2,15 @@
 import Section from './Section.astro';
 import _partners from '../data/partners.yaml';
 
+const logos = await import.meta.glob(
+  ['../assets/logos/*.png', '../assets/logos/*.svg'],
+  { eager: true, import: 'default' }
+);
+
 const partners = await Promise.all(
   _partners.map(async (p) => ({
     ...p,
-    logo: (await import(`../assets/logos/${p.logo}`)).default
+    logo: logos[`../assets/logos/${p.logo}`]
   }))
 );
 ---

@@ -12,4 +12,5 @@ const { name, class: classes } = Astro.props;
 <svg
   class:list={classes ?? 'w-[1em] h-[1em] inline'}
   viewBox="0 0 24 24"
-  set:html={icons.icons[name]?.body}></svg>
+  set:html={icons.icons[name]?.body}
+  aria-hidden="true"></svg>

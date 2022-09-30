@@ -7,18 +7,21 @@
 - name: Netzwerk Recherche
   logo: netzwerk-recherche.svg
   url: https://netzwerkrecherche.org
+- name: Lobby Control
+  logo: lobbycontrol.svg
+  url: https://lobbycontrol.de
 - name: Deutsche Gesellschaft für Informationsfreiheit
   logo: dgif.png
   url: https://dgif.de
 - name: Wikimedia Deutschland
   logo: wikimedia.svg
   url: https://wikimedia.de
-- name: Deutscher Journalistenverband
-  logo: djv.svg
-  url: https://djv.de
 - name: Transparency International
   logo: transparency.svg
   url: https://www.transparency.de
 - name: Abgeordnetenwatch
   logo: abgeordnetenwatch.svg
   url: https://abgeordnetenwatch.de
+- name: Deutscher Journalistenverband
+  logo: djv.svg
+  url: https://djv.de

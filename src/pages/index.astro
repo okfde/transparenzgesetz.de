@@ -5,9 +5,15 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Hero from '../components/Hero.astro';
 import Takeaways from '../components/Takeaways.astro';
-import Section from '../components/Section.astro';
 import BackgroundInfo from '../components/BackgroundInfo.astro';
 import Partners from '../components/Partners.astro';
+import Downloads from '../components/Downloads.astro';
+import Contact from '../components/Contact.astro';
+import faviconSvg from '../assets/icon.svg';
+import faviconPng from '../assets/icon.png';
+import ogImage from '../assets/og.png';
+
+console.log(Astro.site);
 ---
 
 <!DOCTYPE html>
@@ -15,7 +21,28 @@ import Partners from '../components/Partners.astro';
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>
+      Zivilgesellschaftliches Bündnis für ein Bundestransparenzgesetz
+    </title>
+    <meta
+      name="description"
+      content="Die Bundesregierung hat zwar ein Transparenzgesetz versprochen, aber konkrete Planungen gibt es nicht. Deswegen legen wir jetzt selbst eines vor."
+    />
+    <meta
+      property="og:description"
+      content="Die Bundesregierung hat zwar ein Transparenzgesetz versprochen, aber konkrete Planungen gibt es nicht. Deswegen legen wir jetzt selbst eines vor."
+    />
+    <meta property="og:type" content="Website" />
+    <meta
+      property="og:title"
+      content="Zivilgesellschaftliches Bündnis für ein Bundestransparenzgesetz"
+    />
+    <meta property="og:site_name" content="Transparenzgesetz.de" />
+    <meta property="og:image" content={`${Astro.site.origin}${ogImage}`} />
+    <meta name="twitter:image" content={`${Astro.site.origin}${ogImage}`} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href={faviconSvg} type="image/svg+xml" />
+    <link rel="icon" href={faviconPng} type="image/png" />
   </head>
   <body class="font-sans" aria-haspopup="dialog">
     <div class="flex flex-col">
@@ -28,13 +55,11 @@ import Partners from '../components/Partners.astro';
 
         <BackgroundInfo />
 
+        <Downloads />
+
         <Partners />
 
-        <Section>
-          <h2 class="text-2xl font-semibold">Kontakt</h2>
-
-          logos
-        </Section>
+        <Contact />
       </main>
     </div>
 

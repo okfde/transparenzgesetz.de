@@ -1,0 +1,27 @@
+---
+import Section from './Section.astro';
+import Icon from './Icon.astro';
+import Headline from './Headline.astro';
+---
+
+<Section id="downloads">
+  <Headline>Downloads</Headline>
+
+  <ul class="mt-4 space-y-2">
+    <li>
+      <a href="/gesetzentwurf.pdf" class="action-link">
+        <Icon name="arrow-right" /> gesamter Gesetzentwurf (PDF)
+      </a>
+    </li>
+    <li>
+      <a href="/factsheet.pdf" class="action-link">
+        <Icon name="arrow-right" /> Factsheet (PDF)
+      </a>
+    </li>
+    <li>
+      <a href="/hintergrundpapier.pdf" class="action-link">
+        <Icon name="arrow-right" /> Hintergrundpapier (PDF)
+      </a>
+    </li>
+  </ul>
+</Section>

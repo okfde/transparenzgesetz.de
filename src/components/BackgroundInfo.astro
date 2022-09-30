@@ -4,16 +4,14 @@ import * as backgroundInfo from '../data/backgroundInfo.md';
 import Prose from './Prose.astro';
 ---
 
-<div id="hintergrund">
-  <Section>
-    <div class="flex">
-      <Prose>
-        <div set:html={backgroundInfo.compiledContent()}></div>
-      </Prose>
-      <div class="hidden md:block dots flex-1 ml-24 opacity-5"></div>
-    </div>
-  </Section>
-</div>
+<Section id="hintergrund">
+  <div class="flex">
+    <Prose>
+      <div set:html={backgroundInfo.compiledContent()}></div>
+    </Prose>
+    <div class="hidden xl:block dots flex-1 ml-24 opacity-5"></div>
+  </div>
+</Section>
 
 <style>
   .dots {

@@ -8,12 +8,10 @@ const logos = await import.meta.glob(
   { eager: true, import: 'default' }
 );
 
-const partners = await Promise.all(
-  _partners.map(async (p) => ({
-    ...p,
-    logo: logos[`../assets/logos/${p.logo}`]
-  }))
-);
+const partners = _partners.map((p) => ({
+  ...p,
+  logo: logos[`../assets/logos/${p.logo}`]
+}));
 ---
 
 <Section id="bündnis">

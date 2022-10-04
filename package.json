@@ -14,8 +14,6 @@
     "@iconify-json/mdi": "^1.1.33",
     "@modyfi/vite-plugin-yaml": "^1.0.3",
     "astro": "^1.4.2",
-    "autoprefixer": "^10.4.12",
-    "postcss": "^8.4.17",
     "prettier": "^2.7.1",
     "tailwindcss": "^3.1.8"
   },

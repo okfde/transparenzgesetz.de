@@ -8,8 +8,6 @@ specifiers:
   '@modyfi/vite-plugin-yaml': ^1.0.3
   alpinejs: ^3.10.3
   astro: ^1.4.2
-  autoprefixer: ^10.4.12
-  postcss: ^8.4.17
   prettier: ^2.7.1
   tailwindcss: ^3.1.8
 
@@ -23,10 +21,8 @@ devDependencies:
   '@iconify-json/mdi': 1.1.33
   '@modyfi/vite-plugin-yaml': 1.0.3
   astro: 1.4.2
-  autoprefixer: 10.4.12_postcss@8.4.17
-  postcss: 8.4.17
   prettier: 2.7.1
-  tailwindcss: 3.1.8_postcss@8.4.17
+  tailwindcss: 3.1.8
 
 packages:
 
@@ -130,7 +126,7 @@ packages:
       '@proload/core': 0.3.3
       autoprefixer: 10.4.12_postcss@8.4.17
       postcss: 8.4.17
-      tailwindcss: 3.1.8_postcss@8.4.17
+      tailwindcss: 3.1.8
     dev: true
 
   /@astrojs/telemetry/1.0.1:
@@ -3516,12 +3512,10 @@ packages:
     resolution: {integrity: sha512-QD9qKY3StfbZqWOPLp0++pOrAVb/HbUi5xCc8cUo4XjP19808oaMiDzn0leBY5mCespIBM0CIZePzZjgzR83kA==}
     dev: false
 
-  /tailwindcss/3.1.8_postcss@8.4.17:
+  /tailwindcss/3.1.8:
     resolution: {integrity: sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
-    peerDependencies:
-      postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3

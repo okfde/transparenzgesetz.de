@@ -10,17 +10,19 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^2.0.1",
+    "@astrojs/tailwind": "^2.0.2",
     "@iconify-json/mdi": "^1.1.33",
-    "@rollup/plugin-yaml": "^3.1.0",
-    "astro": "^1.2.8",
-    "autoprefixer": "^10.4.11",
-    "postcss": "^8.4.16",
+    "@modyfi/vite-plugin-yaml": "^1.0.3",
+    "astro": "^1.4.2",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
     "prettier": "^2.7.1",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.1.8"
   },
   "dependencies": {
-    "@fontsource/inter": "^4.5.12"
+    "@alpinejs/focus": "^3.10.3",
+    "@fontsource/inter": "^4.5.12",
+    "alpinejs": "^3.10.3"
   },
   "prettier": {
     "singleQuote": true,

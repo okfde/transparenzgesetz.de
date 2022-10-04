@@ -1,0 +1,57 @@
+---
+import Headline from './Headline.astro';
+import Icon from './Icon.astro';
+import Section from './Section.astro';
+---
+
+<Section id="kontakt">
+  <div class="grid md:grid-cols-2">
+    <div>
+      <Headline>Pressekontakt</Headline>
+      <div class="mt-4 space-y-2">
+        <p>
+          Arne Semsrott<br />
+          Projektleiter FragDenStaat<br />
+          <a href="mailto:info@fragdenstaat.de" class="action-link">
+            <Icon name="email-outline" /> info@fragdenstaat.de
+          </a>
+          <br />
+          <a href="tel:+493097894231" class="action-link">
+            <Icon name="phone" /> 030 97894231
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-8 md:mt-0">
+      <Headline>Downloads</Headline>
+      <ul class="mt-4 space-y-2">
+        <li>
+          <a href="/gesetzentwurf.pdf" class="action-link">
+            <Icon name="arrow-right" /> gesamter Gesetzentwurf (PDF)
+          </a>
+        </li>
+        <li>
+          <a href="/factsheet.pdf" class="action-link">
+            <Icon name="arrow-right" /> Factsheet (PDF)
+          </a>
+        </li>
+        <li>
+          <a href="/hintergrundpapier.pdf" class="action-link">
+            <Icon name="arrow-right" /> Hintergrundpapier (PDF)
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.flickr.com/photos/mehr-demokratie/albums/72177720302487931"
+            class="action-link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <Icon name="arrow-right" /> Pressefotos der Entwurfübergabe (Flickr)
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</Section>

@@ -7,13 +7,10 @@ import Hero from '../components/Hero.astro';
 import Takeaways from '../components/Takeaways.astro';
 import BackgroundInfo from '../components/BackgroundInfo.astro';
 import Partners from '../components/Partners.astro';
-import Downloads from '../components/Downloads.astro';
-import Contact from '../components/Contact.astro';
+import Further from '../components/Further.astro';
 import faviconSvg from '../assets/icon.svg';
 import faviconPng from '../assets/icon.png';
 import ogImage from '../assets/og.png';
-
-console.log(Astro.site);
 ---
 
 <!DOCTYPE html>
@@ -43,6 +40,14 @@ console.log(Astro.site);
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href={faviconSvg} type="image/svg+xml" />
     <link rel="icon" href={faviconPng} type="image/png" />
+
+    <script>
+      import Alpine from 'alpinejs';
+      import focus from '@alpinejs/focus';
+
+      Alpine.plugin(focus);
+      Alpine.start();
+    </script>
   </head>
   <body class="font-sans" aria-haspopup="dialog">
     <div class="flex flex-col">
@@ -55,11 +60,9 @@ console.log(Astro.site);
 
         <BackgroundInfo />
 
-        <Downloads />
-
         <Partners />
 
-        <Contact />
+        <Further />
       </main>
     </div>
 

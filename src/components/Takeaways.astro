@@ -34,10 +34,12 @@ import Headline from './Headline.astro';
                 <Prose slot="content">
                   <p>{takeaway.details}</p>
                 </Prose>
+
                 <button
                   type="button"
-                  class="action-link mt-auto text-left pt-3"
+                  class="action-link text-left pt-3"
                   slot="btn"
+                  @click="open = true"
                 >
                   <Icon name="arrow-right" /> Details lesen…
                 </button>

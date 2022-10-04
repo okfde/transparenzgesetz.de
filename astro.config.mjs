@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
-import yaml from '@rollup/plugin-yaml';
+import yaml from '@modyfi/vite-plugin-yaml';
 
 export default defineConfig({
   site: 'https://okfde.github.io',

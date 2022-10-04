@@ -1,62 +1,45 @@
 ---
 import Icon from './Icon.astro';
-const id = (Math.random() + 1).toString(36).substring(7);
 ---
 
-<script define:vars={{ id }}>
-  console.log(id);
-  document.addEventListener('DOMContentLoaded', () => {
-    const modal = document.querySelector(`#modal-${id}`);
-    const btn = modal.nextElementSibling;
-    const closeBtn = document.querySelector(`#close-${id}`);
+<div class="mt-auto" x-data="{ open: false }">
+  <slot name="btn" />
 
-    btn.addEventListener('click', () => modal.classList.toggle('open'));
-    const background = modal.querySelector('div');
-
-    const close = () => modal.classList.remove('open');
-    closeBtn.addEventListener('click', close);
-
-    background.addEventListener('click', (e) => {
-      if (e.target === background) close();
-    });
-  });
-</script>
-
-<div
-  tabindex="-1"
-  id={`modal-${id}`}
-  class="modal fixed inset-0 w-full h-full flex"
-  role="dialog"
-  aria-modal="true"
-  aria-live="assertive"
-  aria-label="Details"
->
-  <div
-    class="bg-gray-500 bg-opacity-50 transition-colors flex items-center w-full flex-1"
-  >
-    <div class="max-w-2xl w-full mx-auto px-4">
-      <div class="bg-white rounded shadow-lg p-4">
-        <div class="flex justify-end">
-          <button id={`close-${id}`} class="inline" aria-label="Schließen">
-            <Icon name="close" class="h-4 w-4 text-gray-500" />
-          </button>
-        </div>
-        <div class="max-h-[80vh] overflow-y-auto">
-          <slot name="content" />
+  <template x-teleport="body">
+    <div
+      tabindex="-1"
+      class="fixed inset-0 w-full h-full flex"
+      :class="{ 'open': open }"
+      @keydown.escape="open = false"
+      role="dialog"
+      aria-modal="true"
+      aria-live="assertive"
+      aria-label="Details"
+      x-show="open"
+      x-transition.opacity
+      x-trap.inert.noscroll="open"
+    >
+      <div
+        class="bg-gray-500 bg-opacity-50 flex items-center w-full flex-1"
+        @click.self="open = false"
+      >
+        <div class="max-w-2xl w-full mx-auto px-4">
+          <div class="bg-white rounded shadow-lg p-4">
+            <div class="flex justify-end">
+              <button
+                class="inline text-gray-500 hover:text-gray-700 focus:text-gray-700"
+                aria-label="Schließen"
+                @click="open = false"
+              >
+                <Icon name="close" class="h-4 w-4" />
+              </button>
+            </div>
+            <div class="max-h-[80vh] overflow-y-auto">
+              <slot name="content" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </template>
 </div>
-
-<slot name="btn" />
-
-<style>
-  .modal {
-    @apply pointer-events-none opacity-0 transition-opacity;
-  }
-
-  .modal.open {
-    @apply pointer-events-auto opacity-100;
-  }
-</style>

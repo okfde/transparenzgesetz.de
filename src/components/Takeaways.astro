@@ -31,6 +31,8 @@ import Headline from './Headline.astro';
 
             {takeaway.details ? (
               <Modal>
+                <Fragment slot="heading">{takeaway.title}</Fragment>
+
                 <Prose slot="content">
                   <p>{takeaway.details}</p>
                 </Prose>

@@ -2,19 +2,18 @@
 import Icon from './Icon.astro';
 ---
 
-<div class="mt-auto" x-data="{ open: false }">
+<div class="mt-auto" x-data="{ open: false, modalTitle: $id('modal-title') }">
   <slot name="btn" />
 
   <template x-teleport="body">
     <div
-      tabindex="-1"
       class="fixed inset-0 w-full h-full flex"
       :class="{ 'open': open }"
       @keydown.escape="open = false"
       role="dialog"
       aria-modal="true"
-      aria-live="assertive"
-      aria-label="Details"
+      :aria-labelledby="modalTitle"
+      tabindex="-1"
       x-show="open"
       x-transition.opacity
       x-trap.inert.noscroll="open"
@@ -25,13 +24,18 @@ import Icon from './Icon.astro';
       >
         <div class="max-w-2xl w-full mx-auto px-4">
           <div class="bg-white rounded shadow-lg p-4">
-            <div class="flex justify-end">
+            <div class="flex items-center mb-4">
+              <h2 class="font-semibold" :id="modalTitle">
+                <slot name="heading" />
+              </h2>
+
               <button
-                class="inline text-gray-500 hover:text-gray-700 focus:text-gray-700"
+                class="inline text-gray-900 ml-auto p-2 bg-gray-200 hover:bg-gray-300 active:bg-gray-400 focus:bg-gray-300 focus:ring ring-blue-200 ring-offset-2 outline-none rounded-full float-right"
                 aria-label="Schließen"
                 @click="open = false"
+                tabindex="0"
               >
-                <Icon name="close" class="h-4 w-4" />
+                <Icon name="close" class="h-5 w-5" />
               </button>
             </div>
             <div class="max-h-[80vh] overflow-y-auto">

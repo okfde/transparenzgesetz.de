@@ -39,8 +39,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Build site
-        run: pnpm run build --base=/transparenzgesetz.de/
-      - run: mv dist/index.html dist/secret.html
+        run: pnpm run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:

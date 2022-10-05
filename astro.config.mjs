@@ -3,8 +3,7 @@ import tailwind from '@astrojs/tailwind';
 import yaml from '@modyfi/vite-plugin-yaml';
 
 export default defineConfig({
-  site: 'https://okfde.github.io',
-  base: '/transparenzgesetz.de', // for github pages testing
+  site: 'https://transparenzgesetz.de',
   integrations: [
     tailwind({
       config: { applyBaseStyles: false }

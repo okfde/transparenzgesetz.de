@@ -25,3 +25,6 @@
 - name: Deutscher Journalistenverband
   logo: djv.svg
   url: https://djv.de
+- name: openPetition
+  logo: openpetition.svg
+  url: https://www.openpetition.de/

@@ -28,3 +28,9 @@
 - name: openPetition
   logo: openPetition.svg
   url: https://www.openpetition.de/
+- name: mySociety
+  logo: mysociety.png
+  url: https://mysociety.org/
+- name: Access Info Europe
+  logo: accessinfo.png
+  url: https://www.access-info.org/

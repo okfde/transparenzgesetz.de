@@ -1,1 +1,887 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="102" viewBox="-1.80248 -1.80248 638.58098 63.68776"><path d="M539.90402 28.38227c.6-2.19947 1.696-3.9344 3.2853-5.20787 1.5933-1.276 3.468-1.91346 5.6333-1.91346 2.112 0 3.928.62133 5.444 1.8604 1.5147 1.24266 2.5827 2.99426 3.1974 5.26093zm22.984 4.45213v-.7776c0-1.91773-.1947-3.62093-.576-5.11053-.3854-1.49107-.976-2.8624-1.7747-4.11093-1.3467-2.01667-3.06-3.58174-5.132-4.70934-2.076-1.12346-4.3173-1.68386-6.7333-1.68386-2.032 0-3.9067.37813-5.62 1.136-1.7174.7588-3.256 1.88333-4.624 3.38333-1.2787 1.38387-2.2494 2.91507-2.9067 4.5948-.6613 1.6848-.988 3.49267-.988 5.42653 0 1.8672.3613 3.69373 1.0853 5.4844.7254 1.79 1.7307 3.3604 3.0107 4.70667 1.364 1.4324 2.8907 2.50533 4.5747 3.22293 1.6786.71613 3.5373 1.0756 5.564 1.0756 3.0173 0 5.6626-.80733 7.9333-2.42613 2.276-1.61294 4.0453-3.9452 5.3093-6.99214h-5.572c-.7973 1.43387-1.8653 2.53907-3.204 3.32454-1.3426.78226-2.832 1.17186-4.4666 1.17186-2.28 0-4.244-.70733-5.9027-2.13546-1.6573-1.426-2.6973-3.2828-3.112-5.58067zm-56.0334-2.0016c0-2.6536.9187-4.89266 2.76-6.72186 1.8387-1.83387 4.0627-2.748 6.6614-2.748 2.5293 0 4.7146.95946 6.5573 2.88653 1.84 1.9208 2.76 4.23067 2.76 6.93387 0 2.52866-.9307 4.74319-2.7893 6.63279-1.8574 1.88907-3.9987 2.8344-6.4294 2.8344-2.6666 0-4.9213-.94373-6.76-2.82133-1.8413-1.8844-2.76-4.2136-2.76-6.9964m23.484 13.91307V8.3724h-4.9466V20.588c-1.3334-1.35-2.7934-2.3588-4.3854-3.02293-1.5893-.66773-3.316-1.00053-5.184-1.00053-2.096 0-3.968.3464-5.6093 1.036-1.6387.6932-3.148 1.7624-4.5293 3.21093-1.2667 1.31667-2.244 2.8416-2.9267 4.5724-.68 1.7296-1.02 3.5624-1.02 5.4984 0 4.14586 1.36 7.59786 4.0947 10.3568 2.732 2.7552 6.16 4.1328 10.292 4.1328 1.764 0 3.424-.3344 4.9813-1.01147 1.5587-.676 2.9707-1.6708 4.2373-2.986v3.37147zm-34.952-6.1396h-4.9973v6.1396h4.9973zm-30.8466-6.34907c0-2.152.079-3.71866.2373-4.70093.1613-.98333.4213-1.81573.784-2.498.6027-1.13067 1.4013-1.99893 2.3973-2.59787 1.0027-.6 2.152-.89893 3.452-.89893 2.1294 0 3.7134.74013 4.744 2.2224 1.0334 1.48533 1.5507 3.74733 1.5507 6.79533v14.16667h4.9467V28.9828c0-3.84946-.9254-6.83853-2.776-8.96773-1.8467-2.13547-4.44-3.1984-7.768-3.1984-1.696 0-3.184.29893-4.4547.89893-1.2787.60054-2.3133 1.48854-3.1133 2.67134V8.3724h-4.9494v36.37347h4.9494zm-15.2854 3.12147c-.7853 1.66666-1.8773 2.95053-3.2733 3.8604-1.4013.90773-2.964 1.362-4.7 1.362-2.5787 0-4.736-.91667-6.4667-2.74854-1.7306-1.83066-2.5986-4.11973-2.5986-6.86973 0-2.71773.8533-4.99893 2.5626-6.84893 1.704-1.84747 3.7827-2.77093 6.2307-2.77093 1.9 0 3.5293.4152 4.896 1.248 1.368.8328 2.4813 2.08906 3.3493 3.7724h5.4174c-1.048-3.14894-2.728-5.59067-5.0427-7.33174-2.3187-1.7412-5.0493-2.60946-8.1947-2.60946-2.016 0-3.904.3896-5.672 1.17346-1.7653.78227-3.3573 1.9328-4.7733 3.44534-1.28 1.38386-2.248 2.91146-2.9067 4.58746-.656 1.6708-.988 3.46454-.988 5.38387 0 1.86307.364 3.69533 1.0894 5.4844.724 1.79013 1.7266 3.3604 3.008 4.71093 1.3493 1.41253 2.856 2.474 4.524 3.18227 1.6613.712 3.52 1.06253 5.5653 1.06253 3.252 0 6.0053-.85573 8.272-2.55733 2.264-1.70987 3.9733-4.22134 5.1187-7.5364zm-28.132 9.3672v-22.9844h3.8974v-4.49693h-3.8974V8.3724h-4.9226v8.89214h-3.8947v4.49693h3.8947v22.9844zm-35.8186-13.91307c0-2.6536.9186-4.89266 2.7586-6.72186 1.84-1.83387 4.0627-2.748 6.6614-2.748 2.5253 0 4.7186.95946 6.5586 2.88653 1.8374 1.9208 2.756 4.23067 2.756 6.93387 0 2.52866-.932 4.74319-2.784 6.63279-1.8586 1.88907-4.0053 2.8344-6.4333 2.8344-2.6667 0-4.9187-.94373-6.7587-2.82133-1.84-1.8844-2.7586-4.2136-2.7586-6.9964m23.4826 13.91307V17.26454h-4.9973V20.588c-1.2987-1.35-2.7413-2.3588-4.32-3.02293-1.584-.66773-3.3187-1.00053-5.2-1.00053-2.0947 0-3.968.3464-5.6093 1.036-1.6347.6932-3.1467 1.7624-4.528 3.21093-1.2694 1.31667-2.2454 2.8416-2.9267 4.5724-.6813 1.7296-1.0213 3.5624-1.0213 5.4984 0 4.14586 1.364 7.59786 4.0946 10.3568 2.732 2.7552 6.1614 4.1328 10.2907 4.1328 1.7653 0 3.4267-.3344 4.984-1.01147 1.556-.676 2.972-1.6708 4.236-2.986v3.37147zm-48.388-18.6136l-5.62 18.6136h-2.7733l-9.5227-27.48133h5.2694l5.6493 18.16719 5.572-18.16719h3.0213l5.5214 18.16719 5.672-18.16719h5.2213l-9.568 27.48133h-2.7733l-5.6694-18.6136" fill="#181716"/><path d="M320.67332 32.2572c0-3.8176.5507-6.55253 1.6613-8.20933 1.1067-1.65773 2.8894-2.4864 5.3587-2.4864 2.2627 0 3.936.70467 5.0173 2.11093 1.084 1.40574 1.624 3.56867 1.624 6.48334v14.59013h4.9734V29.08174c0-3.9484-.9614-6.98014-2.8854-9.09374-1.9253-2.1136-4.6853-3.17133-8.2826-3.17133-1.6 0-3.0187.28587-4.2587.86093-1.2413.574-2.3787 1.47867-3.408 2.70934v-3.124h-4.7493v27.48293h4.9493zm-14.664-3.87493c-.6187-2.26667-1.6827-4.01827-3.196-5.25987-1.5187-1.2412-3.3333-1.86146-5.448-1.86146-2.1653 0-4.0413.63906-5.6333 1.91346-1.5894 1.2724-2.6854 3.0084-3.2854 5.20787zm-17.712 4.45213c.4147 2.2952 1.452 4.1588 3.1107 5.58067 1.656 1.42546 3.624 2.13546 5.908 2.13546 1.6333 0 3.1173-.3896 4.4586-1.17186 1.34-.78547 2.4107-1.8896 3.2107-3.32454h5.568c-1.2653 3.04694-3.0347 5.3792-5.308 6.99214-2.272 1.6188-4.9173 2.42613-7.9293 2.42613-2.032 0-3.8894-.35947-5.572-1.0756-1.6827-.71507-3.2054-1.79053-4.572-3.22293-1.28-1.34627-2.284-2.9176-3.008-4.70667-.7227-1.79067-1.0894-3.6172-1.0894-5.4844 0-1.93386.3307-3.74173.9894-5.42653.6586-1.67973 1.6266-3.212 2.908-4.59373 1.3653-1.50107 2.9066-2.6256 4.624-3.3844 1.7106-.75787 3.5866-1.13707 5.62-1.13707 2.4146 0 4.6573.56147 6.732 1.68493 2.076 1.1256 3.7866 2.69374 5.1306 4.71094.7987 1.24693 1.3907 2.61826 1.7747 4.10933.3813 1.4896.5747 3.1928.5747 5.10947v.77866zm-11.1413 11.91147v-22.986h3.896v-4.49693h-3.896V8.3708h-4.92v8.89214h-3.8974v4.49693h3.8974v22.986zm-16.312-16.3636c-.616-2.26667-1.6827-4.01827-3.1974-5.25987-1.5146-1.2412-3.332-1.86146-5.4426-1.86146-2.1667 0-4.0467.63906-5.6334 1.91346-1.592 1.2724-2.6893 3.0084-3.2906 5.20787zm-17.712 4.45213c.416 2.2952 1.456 4.1588 3.1093 5.58067 1.66 1.42546 3.6307 2.13546 5.9093 2.13546 1.6347 0 3.1187-.3896 4.46-1.17186 1.3414-.78547 2.408-1.8896 3.208-3.32454h5.572c-1.2666 3.04694-3.0333 5.3792-5.308 6.99214-2.2733 1.6188-4.916 2.42613-7.932 2.42613-2.032 0-3.888-.35947-5.5693-1.0756-1.6827-.71507-3.2067-1.79053-4.5747-3.22293-1.2813-1.34627-2.284-2.9176-3.008-4.70667-.7213-1.79067-1.0866-3.6172-1.0866-5.4844 0-1.93386.3306-3.74173.988-5.42653.6586-1.67973 1.6253-3.212 2.9106-4.59373 1.364-1.50107 2.9054-2.6256 4.62-3.3844 1.716-.75787 3.5867-1.13707 5.62-1.13707 2.4147 0 4.6587.56147 6.7334 1.68493 2.072 1.1256 3.784 2.69374 5.1333 4.71094.8 1.24693 1.3893 2.61826 1.7747 4.10933.3813 1.4896.572 3.1928.572 5.10947v.77866zm-28.1014-.5772c0-3.8176.5534-6.55253 1.6614-8.20933 1.108-1.65773 2.892-2.4864 5.3586-2.4864 2.264 0 3.936.70467 5.02 2.11093 1.0827 1.40574 1.6267 3.56867 1.6267 6.48334v14.59013h4.9693V29.08174c0-3.9484-.9613-6.98014-2.8853-9.09374-1.9253-2.1136-4.6867-3.17133-8.2827-3.17133-1.596 0-3.0186.28587-4.2586.86093-1.24.574-2.376 1.47867-3.408 2.70934v-3.124h-4.748v27.48293h4.9466zm-34.17329-1.42546c0 2.78386.91867 5.11306 2.75867 6.99746 1.84266 1.87853 4.09602 2.82133 6.76002 2.82133 2.4293 0 4.576-.94533 6.4306-2.83706 1.86-1.88694 2.7854-4.10147 2.7854-6.63013 0-2.7032-.92-5.01307-2.76-6.93387-1.84-1.92707-4.0267-2.88653-6.5587-2.88653-2.596 0-4.81466.9152-6.65732 2.748-1.84 1.8292-2.75867 4.0708-2.75867 6.7208m18.48669 13.91413V41.3744c-1.268 1.3152-2.6774 2.31147-4.2347 2.986-1.5573.67453-3.22 1.01307-4.984 1.01307-4.13066 0-7.55999-1.3792-10.29332-4.1344-2.73067-2.75627-4.09734-6.2068-4.09734-10.35947 0-1.93066.34267-3.76613 1.02667-5.49733.68267-1.7292 1.65733-3.25307 2.92133-4.56973 1.38134-1.45107 2.896-2.5188 4.532-3.21094 1.64267-.69173 3.51196-1.03813 5.60936-1.03813 1.8666 0 3.5946.33493 5.1826 1.0016 1.5907.66413 3.0547 1.67293 4.3867 3.02187V8.3708h4.948v36.37507zM167.34266 29.4552c0-2.53133.47867-4.3656 1.436-5.50626.95734-1.1432 2.54267-1.79587 4.75867-1.96307v-5.1692c-1.4.0161-2.628.31973-3.684.9088-1.05867.59067-1.99333 1.4964-2.80933 2.7136v-3.17613h-4.64667v27.48293h4.94533zm-32.472 1.5276c0 2.75.86667 5.03907 2.608 6.86973 1.74 1.83187 3.91067 2.74854 6.50534 2.74854 2.552 0 4.68533-.91774 6.40933-2.75787 1.724-1.84373 2.58667-4.1484 2.58667-6.91146 0-2.7812-.86267-5.08174-2.58667-6.8964-1.724-1.81667-3.87333-2.7208-6.45733-2.7208-2.56267 0-4.71734.91666-6.45734 2.75786-1.74133 1.83907-2.608 4.14214-2.608 6.9104m-5.12173.0468c0-1.94786.32867-3.7676.9844-5.45666.6588-1.6912 1.62973-3.21147 2.912-4.56 1.38133-1.4828 2.93867-2.62134 4.67067-3.42334 1.732-.80053 3.532-1.198 5.396-1.198 2 0 3.85066.35787 5.55866 1.07134 1.70534.7188 3.248 1.77506 4.63334 3.17453 1.34933 1.38173 2.38533 2.938 3.10933 4.67293.72533 1.73227 1.088 3.52134 1.088 5.37134 0 1.88546-.33867 3.71359-1.01067 5.49639-.67733 1.78387-1.62133 3.3396-2.83733 4.67187-1.4 1.53387-2.96533 2.69373-4.70933 3.4844-1.73867.78907-3.592 1.18853-5.56 1.18853-2.012 0-3.868-.36306-5.568-1.08853-1.69867-.72667-3.22267-1.79427-4.572-3.2068-1.28307-1.35053-2.28307-2.9208-3.01014-4.71253-.72453-1.78747-1.08493-3.6156-1.08493-5.48547m-8.1192-2.64733c-.61573-2.26667-1.68493-4.01827-3.19747-5.25987-1.514-1.2412-3.33226-1.86146-5.44586-1.86146-2.164 0-4.04374.63906-5.63334 1.91346-1.5916 1.2724-2.68533 3.0084-3.2848 5.20787zm-17.712 4.45213c.41667 2.2952 1.4536 4.1588 3.10987 5.58067 1.65733 1.42546 3.62706 2.13546 5.9084 2.13546 1.63373 0 3.11813-.3896 4.4604-1.17186 1.33906-.78547 2.40666-1.8896 3.20666-3.32454h5.5724c-1.26506 3.04694-3.0348 5.3792-5.30773 6.99214-2.27293 1.6188-4.91773 2.42613-7.93173 2.42613-2.0324 0-3.88814-.35947-5.56934-1.0756-1.68333-.71507-3.2068-1.79053-4.57293-3.22293-1.28227-1.34627-2.2844-2.9176-3.0088-4.70667-.72506-1.79067-1.0876-3.6172-1.0876-5.4844 0-1.93386.32774-3.74173.9876-5.42653.6572-1.67973 1.62653-3.212 2.9088-4.59373 1.36613-1.50107 2.9052-2.6256 4.6224-3.3844 1.71307-.75787 3.58853-1.13707 5.61987-1.13707 2.41506 0 4.65826.56147 6.7328 1.68493 2.07186 1.1256 3.78386 2.69374 5.13386 4.71094.7984 1.24693 1.39 2.61826 1.77134 4.10933.38386 1.4896.57493 3.1928.57493 5.10947v.77866zm-32.8984-2.00266c0 2.78386.9192 5.11306 2.7588 6.99746 1.8432 1.87853 4.09534 2.82133 6.75787 2.82133 2.4312 0 4.57707-.94533 6.43173-2.83706 1.8588-1.88694 2.7864-4.10147 2.7864-6.63013 0-2.7032-.91813-5.01307-2.75826-6.93387-1.8428-1.92707-4.02867-2.88653-6.55947-2.88653-2.59627 0-4.81507.9152-6.65827 2.748-1.8396 1.8292-2.7588 4.0708-2.7588 6.7208m-3.322 16.10938h5.26827c.76773 1.28751 1.7708 2.26407 3.01253 2.93855 1.24014.67708 2.66094 1.01301 4.2588 1.01301 2.7828 0 5.02094-.83697 6.71987-2.50885 1.6984-1.6797 2.5484-3.8985 2.5484-6.65783v-.3516c-1.26507 1.3152-2.67867 2.31147-4.23547 2.986-1.55613.67453-3.21813 1.01307-4.98373 1.01307-4.12867 0-7.55947-1.3792-10.2928-4.1344-2.73013-2.75627-4.0948-6.2068-4.0948-10.35947 0-1.93066.34227-3.76613 1.02453-5.49733.6828-1.7292 1.65734-3.25307 2.9224-4.56973 1.38334-1.45107 2.8948-2.5188 4.5328-3.21094 1.64067-.69173 3.51094-1.03813 5.60827-1.03813 1.86573 0 3.59387.33493 5.1824 1.0016 1.59107.66413 3.05253 1.67293 4.38587 3.02187v-3.324h4.94693V40.2016c0 4.77853-1.24173 8.52077-3.72347 11.23015-2.4812 2.70208-5.89533 4.05729-10.24213 4.05729-3.14587 0-5.83653-.7448-8.06987-2.23699-2.22973-1.49062-3.81973-3.59114-4.7688-6.31093m-28.7036-15.75778c0 2.52866.9276 4.74319 2.78694 6.63013 1.85573 1.89173 4.00053 2.83706 6.43133 2.83706 2.6484 0 4.88907-.93853 6.71973-2.80733 1.83227-1.876 2.748-4.2136 2.748-7.01146 0-2.63547-.924-4.86974-2.77293-6.70987-1.8484-1.84067-4.0636-2.75893-6.6464-2.75893-2.53013 0-4.70827.9548-6.53173 2.86986-1.8208 1.9172-2.73494 4.2328-2.73494 6.95054m.1984 10.19106v3.37147h-4.9952V8.3708h4.94734v12.21614c1.3312-1.34894 2.79213-2.35774 4.38386-3.02187 1.5912-.66667 3.3192-1.0016 5.18227-1.0016 2.10053 0 3.9688.3464 5.60933 1.03813 1.64014.69214 3.15267 1.75987 4.53334 3.21094 1.2824 1.33173 2.26466 2.864 2.94853 4.59786.68173 1.73014 1.02493 3.5568 1.02493 5.4692 0 4.15267-1.36613 7.6032-4.0968 10.35947-2.73333 2.7552-6.17093 4.1344-10.3188 4.1344-1.76306 0-3.424-.33854-4.98386-1.01307-1.55627-.67453-2.96667-1.6708-4.23494-2.986M5.12136 30.83174c0 2.78386.91979 5.11306 2.75989 6.99746 1.84011 1.87853 4.09375 2.82133 6.75675 2.82133 2.43133 0 4.57653-.94533 6.43227-2.83706 1.85946-1.88694 2.786-4.10147 2.786-6.63013 0-2.7032-.91987-5.01307-2.75894-6.93387-1.84213-1.92707-4.028-2.88653-6.5588-2.88653-2.59686 0-4.81717.9152-6.65728 2.748-1.8401 1.8292-2.75989 4.0708-2.75989 6.7208m18.48597 13.91413V41.3744c-1.2652 1.3152-2.6776 2.31147-4.2344 2.986-1.55786.67453-3.21933 1.01307-4.98493 1.01307-4.13019 0-7.55988-1.3792-10.2906-4.1344C1.36615 38.4828 0 35.03227 0 30.8796c0-1.93066.34323-3.76613 1.02448-5.49733.68333-1.7292 1.65677-3.25307 2.9224-4.56973 1.38333-1.45107 2.89531-2.5188 4.53333-3.21094 1.63958-.69173 3.50938-1.03813 5.60779-1.03813 1.88227 0 3.61413.33493 5.19747 1.0016 1.58226.66413 3.02293 1.67293 4.32186 3.02187v-3.324h4.99627v27.48293h-4.99627M610.88662 23.8672c-1.2973-1.19173-2.9186-2.05626-4.6533-2.3808l.3253-5.412c3.0307.43334 5.8427 1.84067 8.1174 4.0052zm-16.4493-3.89533c2.5973-2.5984 6.0613-4.0052 9.848-4.0052l-.324 5.412c-2.2733.10773-4.2187.9724-5.8427 2.48853zm19.156 11.70107h5.4107c-.2174 3.57026-1.8427 6.92293-4.44 9.41146l-3.6774-3.8948c1.5147-1.51573 2.488-3.462 2.7067-5.51666m-1.192-5.96574l3.896-3.78893c1.6227 2.16453 2.5947 4.65413 2.812 7.3588h-5.4107c-.2133-1.2984-.648-2.4896-1.2973-3.56987m13.3093 12.23907l-5.084-1.62387c.6467-1.5156.9734-3.13653 1.08-4.86826h5.4107c-.1067 2.27346-.54 4.54693-1.4067 6.49213m-9.3053 4.87093c1.408-1.19373 2.4867-2.7068 3.2467-4.22133l5.192 1.62133c-1.1894 2.3828-2.8134 4.65627-4.7587 6.4948zm-11.9013-34.96466l-.2187 5.40893c-4.4373 0-8.5467 1.73067-11.6853 4.76147l-3.68-3.8964c4.2186-4.11094 9.7373-6.274 15.584-6.274.1053 0 .1053 0 0 0m12.4426 10.712c-2.7053-2.9224-6.3853-4.76147-10.1706-5.1948l.3213-5.30254c5.304.54054 10.1733 2.9224 13.8547 6.8172 3.68 3.89627 5.84 8.87334 6.1653 14.28427h-5.4107c-.324-3.89573-1.9453-7.68227-4.76-10.60413m13.5254 31.61199c0 3.02866-2.3787 5.40886-5.4094 5.40886h-40.3626c-3.032 0-5.412-2.3802-5.412-5.40886V9.90774c0-3.03067 2.38-5.4104 5.412-5.4104h40.3626c3.0307 0 5.4094 2.37973 5.4094 5.4104zM626.09862 0h-42.4373c-4.888 0-8.8733 3.9828-8.8733 8.8744v42.33599c0 4.89062 3.9853 8.8724 8.8733 8.8724h42.4373c4.892 0 8.8774-3.87083 8.8774-8.76042V8.8744c0-4.8916-3.9854-8.8744-8.8774-8.8744" fill="#f46f3b"/></svg>
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-disabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref--excluded vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>File:2025 Abgeordnetenwatch logo ohne Claim.svg - Wikimedia Commons</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-disabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref--excluded vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser";var cookie=document.cookie.match(/(?:^|; )commonswikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":true,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"b6206f2e-586d-4dd5-9b20-81bc135484a8","wgCanonicalNamespace":"File","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":6,"wgPageName":"File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg","wgTitle":"2025 Abgeordnetenwatch logo ohne Claim.svg","wgCurRevisionId":1060469839,"wgRevisionId":1060469839,"wgArticleId":170490533,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CC-BY-4.0"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg","wgRelevantArticleId":170490533,"wgTempUserName":null,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRestrictionUpload":[],"wgNoticeProject":"commons","wgConfirmEditCaptchaNeededForGenericEdit":"hcaptcha","wgConfirmEditForceShowCaptcha":false,"wgConfirmEditHCaptchaSiteKey":"5d0c670e-a5f4-4258-ad16-1f42792c9c62","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":false,"wgMediaViewerDesktopVue":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":400,"wbUserPreferredContentLanguages":["en"],"wbUserSpecifiedLanguages":["en"],"wbCopyright":{"version":"wikibase-1","messageHtml":"By clicking \"publish\", you agree to the \u003Ca href=\"/wiki/Commons:Copyrights\" class=\"mw-redirect\" title=\"Commons:Copyrights\"\u003Eterms of use\u003C/a\u003E, and you irrevocably agree to release your contribution under the \u003Ca rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/publicdomain/zero/1.0/\"\u003ECreative Commons CC0 License\u003C/a\u003E."},"wbBadgeItems":[],"wbMultiLingualStringLimit":250,"wbTaintedReferencesEnabled":false,"wbEntityId":"M170490533","wgEditSubmitButtonLabelPublish":true,"wgTestKitchenUserExperiments":{"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[]},"upwizPropertyTitles":{"P180":"Main subjects visible in this work"},"upwizPropertyPlaceholders":{"P180":"e.g., Angolan giraffe"},"upwizPropertyCopyLabels":{"P180":"Main subjects"},"wgVisualEditorPageIsDisambiguation":false,"wgULSPosition":"personal","wgULSisCompactLinksEnabled":true,"wgVector2022LanguageInHeader":false,"wgULSisLanguageSelectorEmpty":false,"wgULSLanguageSelectorV2Enabled":true,"wbmiDefaultProperties":["P180"],"wbmiPropertyTitles":{"P180":"Items portrayed in this file"},"wbmiPropertyTypes":{"P180":"wikibase-item","P275":"wikibase-item","P571":"time","P1163":"string","P6216":"wikibase-item"},"wbmiRepoApiUrl":"/w/api.php","wbmiHelpUrls":{"P180":"https://commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Depicts"},"wbmiExternalEntitySearchBaseUri":"https://www.wikidata.org/w/api.php","wbmiSupportedDataTypes":["wikibase-item","string","quantity","time","monolingualtext","external-id","globe-coordinate","url"],"wbCurrentRevision":1060469839,"wbEntity":{"type":"mediainfo","id":"M170490533","labels":{"de":{"language":"de","value":"Logo der offiziellen Website des Projektes \"abgeordnetenwatch.de\" des Parlamentwatch e.V."}},"descriptions":[],"statements":{"P180":[{"mainsnak":{"snaktype":"value","property":"P180","hash":"0374f9a3e76444b2de44297b09761b9f1084c85e","datavalue":{"value":{"entity-type":"item","numeric-id":320307,"id":"Q320307"},"type":"wikibase-entityid"}},"type":"statement","id":"M170490533$91444b4f-471d-6616-f3fa-97d00c36e2bc","rank":"preferred"}],"P275":[{"mainsnak":{"snaktype":"value","property":"P275","hash":"d88af718aa8a9dfc24195b73bf4f597bc66c46c3","datavalue":{"value":{"entity-type":"item","numeric-id":20007257,"id":"Q20007257"},"type":"wikibase-entityid"}},"type":"statement","id":"M170490533$d0e39a66-4bcc-a3da-9664-ae8e28069f62","rank":"normal"}],"P571":[{"mainsnak":{"snaktype":"value","property":"P571","hash":"54f9f2dfdb95cd8aa4ce909ad6f87d94d540e61b","datavalue":{"value":{"time":"+2025-07-22T00:00:00Z","timezone":0,"before":0,"after":0,"precision":11,"calendarmodel":"http://www.wikidata.org/entity/Q1985727"},"type":"time"}},"type":"statement","id":"M170490533$2EC2F16C-07E5-4397-A527-7ADE337702E7","rank":"normal"}],"P1163":[{"mainsnak":{"snaktype":"value","property":"P1163","hash":"636199d1806c7cdbae57b4d4298f38fade12d052","datavalue":{"value":"image/svg+xml","type":"string"}},"type":"statement","id":"M170490533$9D559501-47A1-4EE6-B2F1-8A0F91913A66","rank":"normal"}],"P6216":[{"mainsnak":{"snaktype":"value","property":"P6216","hash":"5570347fdc76d2a80732f51ea10ee4b144a084e0","datavalue":{"value":{"entity-type":"item","numeric-id":50423863,"id":"Q50423863"},"type":"wikibase-entityid"}},"type":"statement","id":"M170490533$9CFBC8DD-3E0A-448E-90A9-D81607FB48ED","rank":"normal"}]}},"wbmiMinCaptionLength":5,"wbmiMaxCaptionLength":250,"wbmiParsedMessageAnonEditWarning":"\u003Cp\u003EYou are not logged in and your \u003Ca href=\"https://en.wikipedia.org/wiki/IP_address\" class=\"extiw\" title=\"w:IP address\"\u003EIP address\u003C/a\u003E will be publicly visible if you make any edits. \u003Ca href=\"/wiki/Special:UserLogin\" title=\"Special:UserLogin\"\u003ELogging in\u003C/a\u003E or \u003Ca href=\"/wiki/Special:CreateAccount\" title=\"Special:CreateAccount\"\u003Ecreating an account\u003C/a\u003E will conceal your IP address and provide you with many other \u003Ca href=\"https://en.wikipedia.org/wiki/Wikipedia:Why_create_an_account%3F\" class=\"extiw\" title=\"w:Wikipedia:Why create an account?\"\u003Ebenefits\u003C/a\u003E. Please do not save test edits. If you want to experiment, please use the \u003Ca href=\"/wiki/Commons:Sandbox\" title=\"Commons:Sandbox\"\u003ESandbox\u003C/a\u003E.\n\u003C/p\u003E","wbmiProtectionMsg":null,"wbmiShowIPEditingWarning":false,"wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"],"wgCheckUserClientHintsInEditRequest":true};
+RLSTATE={"ext.gadget.Long-Image-Names-in-Categories":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","wikibase.alltargets":"ready","wikibase.desktop":"ready","jquery.wikibase.toolbar.styles":"ready","ext.wikimediamessages.styles":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.interface.helpers.linker.styles":"ready","mediawiki.action.view.filepage":"ready","skins.vector.search.codex.styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","filepage":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.pt":"ready","wikibase.mediainfo.filepage.styles":"ready","wikibase.mediainfo.statements.styles":"ready"};RLPAGEMODULES=["mediawiki.page.media","wikibase.entityPage.entityLoaded","wikibase.ui.entityViewInit","mediawiki.action.view.metadata","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.Slideshow","ext.gadget.CollapsibleTemplates","ext.gadget.fastcci","ext.gadget.Stockphoto","ext.gadget.WatchlistNotice","ext.gadget.AjaxQuickDelete","ext.gadget.WikiMiniAtlas","ext.gadget.LanguageSelect","ext.gadget.PictureOfTheYearEnhancements","ext.urlShortener.toolbar","ext.centralauth.centralautologin","ext.testKitchen","mmv.bootstrap","ext.visualEditor.desktopArticleTarget.init","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.wikimediaEvents.wikibase","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","wikibase.databox.fromWikidata","wikibase.mediainfo.filePageDisplay","ext.checkUser.clientHints"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.uls.pt%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediamessages.styles%7Cfilepage%7Cjquery.wikibase.toolbar.styles%7Cmediawiki.action.view.filepage%7Cmediawiki.interface.helpers.linker.styles%7Cmediawiki.interface.helpers.styles%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.alltargets%2Cdesktop%7Cwikibase.mediainfo.filepage.styles%7Cwikibase.mediainfo.statements.styles&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.gadget.Long-Image-Names-in-Categories&amp;only=styles&amp;skin=vector-2022">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.47.0-wmf.24">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2025_Abgeordnetenwatch_logo_ohne_Claim.svg/1280px-2025_Abgeordnetenwatch_logo_ohne_Claim.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="720">
+<meta name="viewport" content="width=1120">
+<meta property="og:title" content="File:2025 Abgeordnetenwatch logo ohne Claim.svg - Wikimedia Commons">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//thumb.wikimedia.org">
+<link rel="alternate" href="https://commons.wikimedia.org/wiki/Special:EntityData/M170490533.json" type="application/json">
+<link rel="alternate" href="https://commons.wikimedia.org/wiki/Special:EntityData/M170490533.n3" type="text/n3">
+<link rel="alternate" href="https://commons.wikimedia.org/wiki/Special:EntityData/M170490533.ttl" type="text/turtle">
+<link rel="alternate" href="https://commons.wikimedia.org/wiki/Special:EntityData/M170490533.nt" type="application/n-triples">
+<link rel="alternate" href="https://commons.wikimedia.org/wiki/Special:EntityData/M170490533.rdf" type="application/rdf+xml">
+<link rel="alternate" href="https://commons.wikimedia.org/wiki/Special:EntityData/M170490533.jsonld" type="application/ld+json">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/index.php?title=File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/commons.png">
+<link rel="icon" href="/static/favicon/commons.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="Wikimedia Commons">
+<link rel="EditURI" type="application/rsd+xml" href="//commons.wikimedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://commons.wikimedia.org/wiki/File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<link rel="alternate" type="application/atom+xml" title="Wikimedia Commons Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="auth.wikimedia.org">
+</head>
+<body class="skin--responsive skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-6 ns-subject mw-editable page-File_2025_Abgeordnetenwatch_logo_ohne_Claim_svg rootpage-File_2025_Abgeordnetenwatch_logo_ohne_Claim_svg skin-vector-2022 action-view wb-entitypage wb-mediainfopage wb-mediainfopage-M170490533">
+<div id="mw-aria-live-region" class="mw-aria-live-region" aria-live="polite"></div><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header no-font-mode-scale">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  title="Main menu" >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"   >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin" aria-label="Move Main menu to sidebar">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin" aria-label="Hide Main menu">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigate
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-welcome" class="mw-list-item"><a href="/wiki/Commons:Welcome"><span>Welcome</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Commons:Community_portal" title="About the project, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-village-pump" class="mw-list-item"><a href="/wiki/Commons:Village_pump"><span>Village pump</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Special:MyLanguage/Help:Contents" title="The place to find out"><span>Help center</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-participate" class="vector-menu mw-portlet mw-portlet-participate"  >
+	<div class="vector-menu-heading">
+		Participate
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-uploadbtn" class="mw-list-item"><a href="/wiki/Special:UploadWizard"><span>Upload file</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-latestfiles" class="mw-list-item"><a href="/wiki/Special:NewFiles"><span>Latest files</span></a></li><li id="n-randomimage" class="mw-list-item"><a href="/wiki/Special:Random/File" title="Load a random file [x]" accesskey="x"><span>Random file</span></a></li><li id="n-contact" class="mw-list-item"><a href="/wiki/Commons:Contact_us"><span>Contact us</span></a></li><li id="n-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/commonswiki.svg" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container skin-invert">
+		<img class="mw-logo-wordmark" alt="Wikimedia Commons" src="/static/images/mobile/copyright/commonswiki-wordmark.svg" style="width: 7.1875em; height: 2em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box">
+	<a href="/wiki/Special:MediaSearch" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" title="Search Wikimedia Commons [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input mw-searchInput" autocomplete="off"
+							 type="search" name="search" placeholder="Search Wikimedia Commons" aria-label="Search Wikimedia Commons" autocapitalize="none" spellcheck="false" title="Search Wikimedia Commons [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:MediaSearch">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="Personal tools">
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-uls" class="mw-list-item active vector-menu-item--collapsible"><a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet uls-trigger" id=""><span class="vector-icon mw-ui-icon-wikimedia-language mw-ui-icon-wikimedia-wikimedia-language cdx-button__icon"></span>
+
+<span>English</span>
+</a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-appearance-landmark" aria-label="Appearance">
+		
+<div id="vector-appearance-dropdown" class="vector-dropdown "  title="Change the appearance of the page&#039;s font size, width, and color" >
+	<input type="checkbox" id="vector-appearance-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-appearance-dropdown" class="vector-dropdown-checkbox "  aria-label="Appearance"   >
+	<label id="vector-appearance-dropdown-label" for="vector-appearance-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-appearance mw-ui-icon-wikimedia-appearance cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Appearance</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+			<div id="vector-appearance-unpinned-container" class="vector-unpinned-container">
+				
+			</div>
+		
+	</div>
+</div>
+
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=commons.wikimedia.org&amp;uselang=en" data-mw-donate-attempt="top_link" class=""><span>Donate</span></a>
+</li>
+<li id="pt-createaccount-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=File%3A2025+Abgeordnetenwatch+logo+ohne+Claim.svg" title="You are encouraged to create an account and log in; however, it is not mandatory" class=""><span>Create account</span></a>
+</li>
+<li id="pt-login-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=File%3A2025+Abgeordnetenwatch+logo+ohne+Claim.svg" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o" class=""><span>Log in</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out vector-user-links-dropdown--collapsible"  title="More options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"   >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=commons.wikimedia.org&amp;uselang=en" data-mw-donate-attempt="top_link" class=""><span class="vector-icon mw-ui-icon-heart mw-ui-icon-wikimedia-heart cdx-button__icon"></span>
+
+<span>Donate</span></a>
+</li>
+<li id="pt-createaccount" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=File%3A2025+Abgeordnetenwatch+logo+ohne+Claim.svg" title="You are encouraged to create an account and log in; however, it is not mandatory" class=""><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span>Create account</span></a>
+</li>
+<li id="pt-login" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=File%3A2025+Abgeordnetenwatch+logo+ohne+Claim.svg" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o" class=""><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn cdx-button__icon"></span>
+
+<span>Log in</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+	<div class="vector-sticky-pinned-container">
+				<nav id="mw-panel-toc" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark">
+					<div id="vector-toc-pinned-container" class="vector-pinned-container">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	data-pinned-container-id="vector-toc-pinned-container"
+	data-unpinned-container-id="vector-toc-unpinned-container"
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin" aria-label="Move Contents to sidebar">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin" aria-label="Hide Contents">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">Beginning</div>
+			</a>
+		</li>
+		<li id="toc-file"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#file">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">1</span>
+				<span>File</span>
+			</div>
+		</a>
+		
+		<ul id="toc-file-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Summary"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Summary">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">2</span>
+				<span>Summary</span>
+			</div>
+		</a>
+		
+		<ul id="toc-Summary-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-filehistory"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#filehistory">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">3</span>
+				<span>File history</span>
+			</div>
+		</a>
+		
+		<ul id="toc-filehistory-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-filelinks"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#filelinks">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">4</span>
+				<span>File usage on Commons</span>
+			</div>
+		</a>
+		
+		<ul id="toc-filelinks-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-globalusage"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#globalusage">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">5</span>
+				<span>File usage on other wikis</span>
+			</div>
+		</a>
+		
+		<ul id="toc-globalusage-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-metadata"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#metadata">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">6</span>
+				<span>Metadata</span>
+			</div>
+		</a>
+		
+		<ul id="toc-metadata-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+					</div>
+		</nav>
+			</div>
+		</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body">
+				<header class="mw-body-header vector-page-titlebar no-font-mode-scale">
+					<nav aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  title="Table of Contents" >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"   >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span lang="en" dir="ltr"><span class="mw-page-title-namespace">File</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">2025 Abgeordnetenwatch logo ohne Claim.svg</span></span></h1>
+		<div class="mw-indicators">
+	</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-nstab-image" class="selected mw-list-item vector-tab-noicon"><a data-mw-interface  href="/wiki/File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg" title="View the file page [c]" accesskey="c" class=""><span>File</span></a>
+</li>
+<li id="ca-talk" class="new mw-list-item vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=File_talk:2025_Abgeordnetenwatch_logo_ohne_Claim.svg&amp;action=edit&amp;redlink=1" rel="discussion" class="new" title="Discussion about the content page (page does not exist) [t]" accesskey="t"><span>Discussion</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="vector-variants-dropdown" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="vector-variants-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-variants-dropdown" class="vector-dropdown-checkbox " aria-label="Change language variant"    >
+	<label id="vector-variants-dropdown-label" for="vector-variants-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+			    
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view" class="selected mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/wiki/File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg" class=""><span>Read</span></a>
+</li>
+<li id="ca-edit" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg&amp;action=edit" title="Edit this page [e]" accesskey="e" class=""><span>Edit</span></a>
+</li>
+<li id="ca-history" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg&amp;action=history" title="Past revisions of this page [h]" accesskey="h" class=""><span>View history</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+			</nav>
+
+							<nav class="vector-page-tools-landmark" aria-label="Page tools">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"   >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-verticalEllipsis mw-ui-icon-wikimedia-verticalEllipsis cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin" aria-label="Move Tools to sidebar">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin" aria-label="Hide Tools">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  >
+	<div class="vector-menu-heading">
+		Actions
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view-more" class="selected mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/wiki/File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg" class=""><span class="vector-icon mw-ui-icon-eye mw-ui-icon-wikimedia-eye cdx-button__icon"></span>
+
+<span>Read</span></a>
+</li>
+<li id="ca-edit-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg&amp;action=edit" title="Edit this page [e]" accesskey="e" class=""><span class="vector-icon mw-ui-icon-edit mw-ui-icon-wikimedia-edit cdx-button__icon"></span>
+
+<span>Edit</span></a>
+</li>
+<li id="ca-history-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg&amp;action=history" title="Past revisions of this page [h]" accesskey="h" class=""><span class="vector-icon mw-ui-icon-history mw-ui-icon-wikimedia-history cdx-button__icon"></span>
+
+<span>View history</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg&amp;oldid=1060469839" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=File%3A2025_Abgeordnetenwatch_logo_ohne_Claim.svg&amp;id=1060469839&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3A2025_Abgeordnetenwatch_logo_ohne_Claim.svg"><span>Get shortened URL</span></a></li><li id="t-wb-concept-uri" class="mw-list-item"><a href="https://commons.wikimedia.org/entity/M170490533" title="URI that identifies the concept described by this Item"><span>Concept URI</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-electronpdfservice-sidebar-portlet-heading" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="electron-print_pdf" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=File%3A2025_Abgeordnetenwatch_logo_ohne_Claim.svg&amp;action=show-download-screen"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects emptyPortlet"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end no-font-mode-scale">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="Page tools">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-appearance-landmark" aria-label="Appearance">
+							<div id="vector-appearance-pinned-container" class="vector-pinned-container">
+				<div id="vector-appearance" class="vector-appearance vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-appearance-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="appearance-pinned"
+	data-pinnable-element-id="vector-appearance"
+	data-pinned-container-id="vector-appearance-pinned-container"
+	data-unpinned-container-id="vector-appearance-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Appearance</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-appearance.pin" aria-label="Move Appearance to sidebar">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-appearance.unpin" aria-label="Hide Appearance">hide</button>
+</div>
+
+
+</div>
+
+							</div>
+		</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+					
+						<div id="siteSub" class="noprint">From Wikimedia Commons, the free media repository</div>
+						<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+						
+					</div>
+					
+					<div id="mw-content-text" class="mw-body-content"><ul id="filetoc"></ul>
+<div class="fullImageLink" id="file"><a href="https://upload.wikimedia.org/wikipedia/commons/6/6b/2025_Abgeordnetenwatch_logo_ohne_Claim.svg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original"><img alt="File:2025 Abgeordnetenwatch logo ohne Claim.svg" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2025_Abgeordnetenwatch_logo_ohne_Claim.svg/960px-2025_Abgeordnetenwatch_logo_ohne_Claim.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail&amp;_=20250722062008" decoding="async" loading="lazy" width="512" height="307" srcset="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2025_Abgeordnetenwatch_logo_ohne_Claim.svg/1280px-2025_Abgeordnetenwatch_logo_ohne_Claim.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail&amp;_=20250722062008 2x" data-file-width="512" data-file-height="307"></a><div class="mw-filepage-resolutioninfo">Size of the above preview of this SVG file: <a href="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2025_Abgeordnetenwatch_logo_ohne_Claim.svg/960px-2025_Abgeordnetenwatch_logo_ohne_Claim.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail" class="mw-thumbnail-link">960 × 576 pixels</a>. <span class="mw-filepage-other-resolutions">Other resolutions: <a href="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2025_Abgeordnetenwatch_logo_ohne_Claim.svg/330px-2025_Abgeordnetenwatch_logo_ohne_Claim.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail" class="mw-thumbnail-link">330 × 198 pixels</a> | <a href="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2025_Abgeordnetenwatch_logo_ohne_Claim.svg/1280px-2025_Abgeordnetenwatch_logo_ohne_Claim.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail" class="mw-thumbnail-link">1,280 × 768 pixels</a> | <a href="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2025_Abgeordnetenwatch_logo_ohne_Claim.svg/3840px-2025_Abgeordnetenwatch_logo_ohne_Claim.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail" class="mw-thumbnail-link">3,840 × 2,303 pixels</a>.</span></div></div>
+<div class="fullMedia"><bdi dir="ltr"><a href="https://upload.wikimedia.org/wikipedia/commons/6/6b/2025_Abgeordnetenwatch_logo_ohne_Claim.svg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original" class="internal" title="2025 Abgeordnetenwatch logo ohne Claim.svg">Original file</a></bdi> <span class="fileInfo">(SVG file, nominally 512 × 307 pixels, file size: 8 KB)</span></div><meta property="mw:PageProp/toc" />
+<div class='wbmi-tabs-container oo-ui-layout oo-ui-panelLayout'><div id='ooui-php-1' class='wbmi-tabs oo-ui-layout oo-ui-menuLayout oo-ui-menuLayout-static oo-ui-menuLayout-top oo-ui-menuLayout-showMenu oo-ui-indexLayout' data-ooui='{"_":"OO.ui.IndexLayout","classes":["wbmi-tabs"],"expanded":false,"menuPanel":{"tag":"ooui-php-2"},"contentPanel":{"tag":"ooui-php-3"},"autoFocus":false,"tabPanels":{"wikiTextPlusCaptions":{"tag":"ooui-php-4"},"statements":{"tag":"ooui-php-5"}},"tabSelectWidget":{"tag":"ooui-php-6"}}'><div aria-hidden='false' class='oo-ui-menuLayout-menu'><div id='ooui-php-2' class='oo-ui-layout oo-ui-panelLayout oo-ui-indexLayout-tabPanel' data-ooui='{"_":"OO.ui.PanelLayout","preserveContent":false,"expanded":false}'><div role='tablist' aria-multiselectable='false' tabindex='0' id='ooui-php-6' class='oo-ui-selectWidget oo-ui-selectWidget-unpressed oo-ui-widget oo-ui-widget-enabled oo-ui-tabSelectWidget oo-ui-tabSelectWidget-frameless' data-ooui='{"_":"OO.ui.TabSelectWidget","framed":false,"items":[{"tag":"ooui-php-7"},{"tag":"ooui-php-8"}]}'><div aria-selected='true' role='tab' id='ooui-php-7' class='oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement oo-ui-optionWidget oo-ui-tabOptionWidget oo-ui-optionWidget-selected' data-ooui='{"_":"OO.ui.TabOptionWidget","selected":true,"label":"File information","data":"wikiTextPlusCaptions"}'><span class='oo-ui-labelElement-label'>File information</span></div><div aria-selected='false' role='tab' id='ooui-php-8' class='oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement oo-ui-optionWidget oo-ui-tabOptionWidget' data-ooui='{"_":"OO.ui.TabOptionWidget","label":"Structured data","data":"statements"}'><span class='oo-ui-labelElement-label'>Structured data</span></div></div></div></div><div class='oo-ui-menuLayout-content'><div id='ooui-php-3' class='oo-ui-layout oo-ui-panelLayout oo-ui-stackLayout oo-ui-indexLayout-stackLayout' data-ooui='{"_":"OO.ui.StackLayout","preserveContent":false,"expanded":false,"items":[{"tag":"ooui-php-4"},{"tag":"ooui-php-5"}]}'><div role='tabpanel' id='ooui-php-4' class='wbmi-tab oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-scrollable oo-ui-tabPanelLayout oo-ui-tabPanelLayout-active' data-ooui='{"_":"OO.ui.TabPanelLayout","name":"wikiTextPlusCaptions","label":"File information","scrollable":true,"expanded":false,"classes":["wbmi-tab"]}'><h2 class="wbmi-captions-header">Captions</h2><div class='wbmi-entityview-captionsPanel oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed'><h3 class='wbmi-entityview-captions-header'>Captions</h3><div class='wbmi-entityview-caption oo-ui-layout oo-ui-horizontalLayout'><label class='wbmi-language-label oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement-label oo-ui-labelElement oo-ui-labelWidget'>English</label><div lang='en' dir='ltr' class='wbmi-caption-value wbmi-entityview-emptyCaption'>Add a one-line explanation of what this file represents</div></div><div style='display:none;' class='wbmi-entityview-caption wbmi-entityview-hideable oo-ui-layout oo-ui-horizontalLayout'><label class='wbmi-language-label oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement-label oo-ui-labelElement oo-ui-labelWidget'>German</label><div lang='de' dir='ltr' class='wbmi-caption-value'>Logo der offiziellen Website des Projektes &quot;abgeordnetenwatch.de&quot; des Parlamentwatch e.V.</div></div></div><div id="mw-imagepage-content"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><div class="mw-heading mw-heading2"><h2 id="Summary">Summary</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg&amp;action=edit&amp;section=1" title="Edit section: Summary"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<div class="hproduct commons-file-information-table">
+<table class="fileinfotpl-type-information vevent" dir="ltr">
+
+<tbody><tr>
+<td id="fileinfotpl&#95;desc" class="fileinfo-paramfield" lang="en">Description<span class="summary fn" style="display:none">2025 Abgeordnetenwatch logo ohne Claim.svg</span></td>
+<td class="description">
+<div class="description de" dir="ltr" lang="de"><span class="language de" title="German"><b>Deutsch&#58; </b></span> Logo von <a href="https://de.wikipedia.org/wiki/abgeordnetenwatch.de" class="extiw" title="de:abgeordnetenwatch.de">abgeordnetenwatch.de</a> seit dem 22.07.2025</div></td>
+</tr>
+
+<tr>
+<td id="fileinfotpl&#95;date" class="fileinfo-paramfield" lang="en">Date</td>
+<td lang="en">
+<time class="dtstart" datetime="2025-07-22" lang="en" dir="ltr" style="white-space:nowrap">22 July 2025</time></td>
+</tr>
+
+<tr>
+<td id="fileinfotpl&#95;src" class="fileinfo-paramfield" lang="en">Source</td>
+<td>
+<span class="int-own-work" lang="en">Own work</span></td>
+</tr>
+
+<tr>
+<td id="fileinfotpl&#95;aut" class="fileinfo-paramfield" lang="en">Author</td>
+<td>
+<a href="/w/index.php?title=Parlamentwatch_e.V.&amp;action=edit&amp;redlink=1" class="new" title="Parlamentwatch e.V. (page does not exist)">Parlamentwatch e.V.</a></td>
+</tr>
+
+<tr>
+<td id="fileinfotpl&#95;ver" class="fileinfo-paramfield" lang="en">Other versions</td>
+<td>
+<figure class="mw-default-size mw-halign-left" typeof="mw:File/Thumb"><a href="/wiki/File:Abgeordnetenwatch.de_Logo.svg" class="mw-file-description"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Abgeordnetenwatch.de_Logo.svg/250px-Abgeordnetenwatch.de_Logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="250" height="50" class="mw-file-element" srcset="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Abgeordnetenwatch.de_Logo.svg/500px-Abgeordnetenwatch.de_Logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" data-file-width="434" data-file-height="86" /></a><figcaption>Historisches Logo</figcaption></figure>, <figure class="mw-default-size mw-halign-left" typeof="mw:File/Thumb"><a href="/wiki/File:Abgeordnetenwatch.de_logo.svg" class="mw-file-description"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Abgeordnetenwatch.de_logo.svg/250px-Abgeordnetenwatch.de_logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="250" height="25" class="mw-file-element" srcset="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Abgeordnetenwatch.de_logo.svg/500px-Abgeordnetenwatch.de_logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" data-file-width="1024" data-file-height="102" /></a><figcaption>Historisches Logo</figcaption></figure></td>
+</tr>
+
+
+</tbody></table>
+</div>
+<div class="responsive-license-cc layouttemplate licensetpl" dir="ltr" lang="en"><div class="rlicense-icons"><span class="skin-invert" typeof="mw:File"><span title="w:en:Creative Commons"><img alt="w:en:Creative Commons" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="90" height="36" class="mw-file-element" srcset="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" data-file-width="744" data-file-height="300" /></span></span><br />
+<span class="skin-invert" typeof="mw:File"><span title="attribution"><img alt="attribution" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="24" height="24" class="mw-file-element" srcset="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" data-file-width="64" data-file-height="64" /></span></span></div><div class="rlicense-text"><div class="rlicense-declaration">This file is licensed under the <a href="https://en.wikipedia.org/wiki/en:Creative_Commons" class="extiw" title="w:en:Creative Commons">Creative Commons</a> <a href="//creativecommons.org/licenses/by/4.0/deed.en" class="extiw" title="creativecommons:by/4.0/deed.en">Attribution 4.0 International</a> license.</div><div class="rlicense-desc" style="text-align:start;" dir="ltr" lang="en">
+<dl><dd>You are free:
+<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>
+<li><b>to remix</b> – to adapt the work</li></ul></dd>
+<dd>Under the following conditions:
+<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>
+</div><span class="licensetpl&#95;link" style="display:none;">https://creativecommons.org/licenses/by/4.0</span><span class="licensetpl&#95;short" style="display:none;">CC BY 4.0 </span><span class="licensetpl&#95;long" style="display:none;">Creative Commons Attribution 4.0 </span><span class="licensetpl&#95;link&#95;req" style="display:none;">true</span><span class="licensetpl&#95;attr&#95;req" style="display:none;">true</span></div></div>
+<!-- 
+NewPP limit report
+Parsed by mw‐api‐int.eqiad.main‐797c8654c8‐4bswc
+Cached time: 20261002203630
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: [prevent‐selective‐update]
+CPU time usage: 0.028 seconds
+Real time usage: 0.047 seconds
+Preprocessor visited node count: 160/1000000
+Revision size: 386/2097152 bytes
+Post‐expand include size: 6600/2097152 bytes
+Template argument size: 90/2097152 bytes
+Highest expansion depth: 6/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 8/5000000 bytes
+Lua time usage: 0.011/10.000 seconds
+Lua memory usage: 985481/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   39.930      1 -total
+ 79.95%   31.924      1 Template:Information
+ 19.93%    7.957      1 Template:Cc-by-4.0
+ 14.28%    5.702      1 Template:Cc-by-layout
+ 11.91%    4.755      1 Template:De
+  3.86%    1.541      1 Template:Own
+  3.24%    1.294      1 Template:License_template_tag
+-->
+
+<!-- Render ID f2a2e658-bea0-11f1-ab18-3bf401dde18a -->
+
+<!-- Saved in parser cache with key commonswiki:pcache:170490533:|#|:idhash:wb=3!wbMobile=0 and timestamp 20261002203630 and revision id 1060469839. Rendering was triggered because: page_view
+ -->
+</div></div><h2 id="filehistory">File history</h2>
+<div id="mw-imagepage-section-filehistory">
+<p>Click on a date/time to view the file as it appeared at that time.
+</p>
+<table class="wikitable filehistory">
+<tr><th></th><th>Date/Time</th><th>Thumbnail</th><th>Dimensions</th><th>User</th><th>Comment</th></tr>
+<tr><td>current</td><td class="filehistory-selected" style="white-space: nowrap;"><a href="https://upload.wikimedia.org/wikipedia/commons/6/6b/2025_Abgeordnetenwatch_logo_ohne_Claim.svg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original">06:20, 22 July 2025</a></td><td><a href="https://upload.wikimedia.org/wikipedia/commons/6/6b/2025_Abgeordnetenwatch_logo_ohne_Claim.svg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original"><img alt="Thumbnail for version as of 06:20, 22 July 2025" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2025_Abgeordnetenwatch_logo_ohne_Claim.svg/120px-2025_Abgeordnetenwatch_logo_ohne_Claim.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail&amp;_=20250722062008" decoding="async" loading="lazy" width="120" height="72" data-file-width="512" data-file-height="307"></a></td><td>512 × 307 <span style="white-space: nowrap;">(8 KB)</span></td><td><a href="/wiki/User:A_ka_es" class="mw-userlink" title="User:A ka es"><bdi>A ka es</bdi></a> <span class="mw-usertoollinks">(<a href="/wiki/User_talk:A_ka_es" class="mw-usertoollinks-talk" title="User talk:A ka es">talk</a> | <a href="/wiki/Special:Contributions/A_ka_es" class="mw-usertoollinks-contribs" title="Special:Contributions/A ka es">contribs</a>)</span></td><td dir="ltr">{{Information |Description= |Source={{own}} |Date= |Author= <a href="/wiki/User:A_ka_es" title="User:A ka es">A ka es</a> |Permission= |other_versions= }}</td></tr>
+</table>
+
+</div>
+<div class="mw-imagepage-upload-links"><p id="mw-imagepage-upload-disallowed">You cannot overwrite this file.</p></div><h2 id="filelinks">File usage on Commons</h2>
+<div id='mw-imagepage-section-linkstoimage'>
+<p>The following 2 pages use this file:
+</p><ul class="mw-imagepage-linkstoimage">
+<li class="mw-imagepage-linkstoimage-ns6"><a href="/wiki/File:Abgeordnetenwatch.de_Logo.svg" title="File:Abgeordnetenwatch.de Logo.svg">File:Abgeordnetenwatch.de Logo.svg</a></li>
+<li class="mw-imagepage-linkstoimage-ns6"><a href="/wiki/File:Abgeordnetenwatch.de_logo.svg" title="File:Abgeordnetenwatch.de logo.svg">File:Abgeordnetenwatch.de logo.svg</a></li>
+</ul>
+</div>
+<h2 id="globalusage">File usage on other wikis</h2>
+<div id="mw-imagepage-section-globalusage"><p>The following other wikis use this file:
+</p><ul class="plainlinks"><li class='mw-gu-onwiki-ar_wikipedia_org'>Usage on ar.wikipedia.org
+<ul>	<li><a class="external" data-mw-original-href="//ar.wikipedia.org/wiki/%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%A9_%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86" href="https://ar.wikipedia.org/wiki/%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%A9_%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86">مراقبة البرلمان</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-de_wikipedia_org'>Usage on de.wikipedia.org
+<ul>	<li><a class="external" data-mw-original-href="//de.wikipedia.org/wiki/Abgeordnetenwatch.de" href="https://de.wikipedia.org/wiki/Abgeordnetenwatch.de">Abgeordnetenwatch.de</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-es_wikipedia_org'>Usage on es.wikipedia.org
+<ul>	<li><a class="external" data-mw-original-href="//es.wikipedia.org/wiki/Abgeordnetenwatch.de" href="https://es.wikipedia.org/wiki/Abgeordnetenwatch.de">Abgeordnetenwatch.de</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-he_wikipedia_org'>Usage on he.wikipedia.org
+<ul>	<li><a class="external" data-mw-original-href="//he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%AA%D7%9E%D7%A9:WikiJunkie/%D7%A8%D7%A9%D7%99%D7%9E%D7%95%D7%AA_%D7%A9%D7%99%D7%9E%D7%95%D7%A9%D7%99%D7%95%D7%AA_%D7%A9%D7%9E%D7%95%D7%A4%D7%A7%D7%95%D7%AA_%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA_%D7%94%D7%91%D7%95%D7%98_%D7%9C%D7%99%D7%A1%D7%98%D7%A8%D7%99%D7%94/%D7%9E%D7%95%D7%A1%D7%93%D7%95%D7%AA_%D7%9C%D7%9C%D7%90_%D7%9B%D7%95%D7%95%D7%A0%D7%AA_%D7%A8%D7%95%D7%95%D7%97_-_%D7%9B%D7%9C_%D7%94%D7%A2%D7%A8%D7%9B%D7%99%D7%9D_%D7%A9%D7%97%D7%A1%D7%A8%D7%99%D7%9D" href="https://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%AA%D7%9E%D7%A9:WikiJunkie/%D7%A8%D7%A9%D7%99%D7%9E%D7%95%D7%AA_%D7%A9%D7%99%D7%9E%D7%95%D7%A9%D7%99%D7%95%D7%AA_%D7%A9%D7%9E%D7%95%D7%A4%D7%A7%D7%95%D7%AA_%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA_%D7%94%D7%91%D7%95%D7%98_%D7%9C%D7%99%D7%A1%D7%98%D7%A8%D7%99%D7%94/%D7%9E%D7%95%D7%A1%D7%93%D7%95%D7%AA_%D7%9C%D7%9C%D7%90_%D7%9B%D7%95%D7%95%D7%A0%D7%AA_%D7%A8%D7%95%D7%95%D7%97_-_%D7%9B%D7%9C_%D7%94%D7%A2%D7%A8%D7%9B%D7%99%D7%9D_%D7%A9%D7%97%D7%A1%D7%A8%D7%99%D7%9D">משתמש:WikiJunkie/רשימות שימושיות שמופקות באמצעות הבוט ליסטריה/מוסדות ללא כוונת רווח - כל הערכים שחסרים</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-www_wikidata_org'>Usage on www.wikidata.org
+<ul>	<li><a class="external" data-mw-original-href="//www.wikidata.org/wiki/Q320307" href="https://www.wikidata.org/wiki/Q320307">Q320307</a></li>
+</ul></li>
+</ul>
+</div><h2 id="metadata">Metadata</h2>
+<div class="mw-imagepage-section-metadata"><p>This file contains additional information such as Exif metadata which may have been added by the digital camera, scanner, or software program used to create or digitize it. If the file has been modified from its original state, some details such as the timestamp may not fully reflect those of the original file. The timestamp is only as accurate as the clock in the camera, and it may be completely wrong.</p><table id="mw&#95;metadata" class="mw&#95;metadata collapsed">
+<tbody><tr class="exif-imagewidth mw-metadata-collapsible"><th>Width</th><td>100%</td></tr><tr class="exif-imagelength mw-metadata-collapsible"><th>Height</th><td>100%</td></tr></tbody></table>
+</div><noscript><img src="https://commons.wikimedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&amp;type=1x1&amp;usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript></div><div role='tabpanel' aria-hidden='true' id='ooui-php-5' class='wbmi-tab oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-scrollable oo-ui-tabPanelLayout oo-ui-element-hidden' data-ooui='{"_":"OO.ui.TabPanelLayout","name":"statements","label":"Structured data","scrollable":true,"expanded":false,"classes":["wbmi-tab"]}'><h2 class="wbmi-structured-data-header">Structured data</h2><div id='P180' data-mw-property='P180' data-mw-statements='[{"mainsnak":{"snaktype":"value","property":"P180","hash":"0374f9a3e76444b2de44297b09761b9f1084c85e","datavalue":{"value":{"entity-type":"item","numeric-id":320307,"id":"Q320307"},"type":"wikibase-entityid"}},"type":"statement","id":"M170490533$91444b4f-471d-6616-f3fa-97d00c36e2bc","rank":"preferred"}]' data-mw-formatvalue='{"{\"value\":{\"entity-type\":\"property\",\"numeric-id\":180,\"id\":\"P180\"},\"type\":\"wikibase-entityid\"}":{"text\/html":{"en":{"":"&lt;a target=\"_blank\" title=\"d:Special:EntityPage\/P180\" href=\"https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P180\"&gt;depicts&lt;\/a&gt;"}},"text\/plain":{"en":{"":"depicts"}}},"{\"value\":{\"entity-type\":\"item\",\"numeric-id\":320307,\"id\":\"Q320307\"},\"type\":\"wikibase-entityid\"}":{"text\/html":{"en":{"P180":"&lt;a target=\"_blank\" title=\"d:Special:EntityPage\/Q320307\" href=\"https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/Q320307\"&gt;abgeordnetenwatch&lt;\/a&gt;"}},"text\/plain":{"en":{"P180":"abgeordnetenwatch"}}}}' class='wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P180 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed'><div class='wbmi-statements-widget'><div class='wbmi-statement-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h3 class='wbmi-statements-title'>Items portrayed in this file</h3><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/P180" href="https://www.wikidata.org/wiki/Special:EntityPage/P180">depicts</a></bdi></h4></div></div></div><div class='wbmi-content-items-group'><div class='wbmi-item wbmi-item-read'><div class='wbmi-item-container'><div class='wbmi-entity-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/Q320307" href="https://www.wikidata.org/wiki/Special:EntityPage/Q320307">abgeordnetenwatch</a></bdi></h4></div></div></div></div></div></div></div></div><div id='P6216' data-mw-property='P6216' data-mw-statements='[{"mainsnak":{"snaktype":"value","property":"P6216","hash":"5570347fdc76d2a80732f51ea10ee4b144a084e0","datavalue":{"value":{"entity-type":"item","numeric-id":50423863,"id":"Q50423863"},"type":"wikibase-entityid"}},"type":"statement","id":"M170490533$9CFBC8DD-3E0A-448E-90A9-D81607FB48ED","rank":"normal"}]' data-mw-formatvalue='{"{\"value\":{\"entity-type\":\"property\",\"numeric-id\":6216,\"id\":\"P6216\"},\"type\":\"wikibase-entityid\"}":{"text\/html":{"en":{"":"&lt;a target=\"_blank\" title=\"d:Special:EntityPage\/P6216\" href=\"https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P6216\"&gt;copyright status&lt;\/a&gt;"}},"text\/plain":{"en":{"":"copyright status"}}},"{\"value\":{\"entity-type\":\"item\",\"numeric-id\":50423863,\"id\":\"Q50423863\"},\"type\":\"wikibase-entityid\"}":{"text\/html":{"en":{"P6216":"&lt;a target=\"_blank\" title=\"d:Special:EntityPage\/Q50423863\" href=\"https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/Q50423863\"&gt;copyrighted&lt;\/a&gt;"}},"text\/plain":{"en":{"P6216":"copyrighted"}}}}' class='wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P6216 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed'><div class='wbmi-statements-widget'><div class='wbmi-statement-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/P6216" href="https://www.wikidata.org/wiki/Special:EntityPage/P6216">copyright status</a></bdi></h4></div></div></div><div class='wbmi-content-items-group'><div class='wbmi-item wbmi-item-read'><div class='wbmi-item-container'><div class='wbmi-entity-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/Q50423863" href="https://www.wikidata.org/wiki/Special:EntityPage/Q50423863">copyrighted</a></bdi></h4></div></div></div></div></div></div></div></div><div id='P275' data-mw-property='P275' data-mw-statements='[{"mainsnak":{"snaktype":"value","property":"P275","hash":"d88af718aa8a9dfc24195b73bf4f597bc66c46c3","datavalue":{"value":{"entity-type":"item","numeric-id":20007257,"id":"Q20007257"},"type":"wikibase-entityid"}},"type":"statement","id":"M170490533$d0e39a66-4bcc-a3da-9664-ae8e28069f62","rank":"normal"}]' data-mw-formatvalue='{"{\"value\":{\"entity-type\":\"property\",\"numeric-id\":275,\"id\":\"P275\"},\"type\":\"wikibase-entityid\"}":{"text\/html":{"en":{"":"&lt;a target=\"_blank\" title=\"d:Special:EntityPage\/P275\" href=\"https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P275\"&gt;copyright license&lt;\/a&gt;"}},"text\/plain":{"en":{"":"copyright license"}}},"{\"value\":{\"entity-type\":\"item\",\"numeric-id\":20007257,\"id\":\"Q20007257\"},\"type\":\"wikibase-entityid\"}":{"text\/html":{"en":{"P275":"&lt;a target=\"_blank\" title=\"d:Special:EntityPage\/Q20007257\" href=\"https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/Q20007257\"&gt;Creative Commons Attribution 4.0 International&lt;\/a&gt;"}},"text\/plain":{"en":{"P275":"Creative Commons Attribution 4.0 International"}}}}' class='wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P275 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed'><div class='wbmi-statements-widget'><div class='wbmi-statement-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/P275" href="https://www.wikidata.org/wiki/Special:EntityPage/P275">copyright license</a></bdi></h4></div></div></div><div class='wbmi-content-items-group'><div class='wbmi-item wbmi-item-read'><div class='wbmi-item-container'><div class='wbmi-entity-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/Q20007257" href="https://www.wikidata.org/wiki/Special:EntityPage/Q20007257">Creative Commons Attribution 4.0 International</a></bdi></h4></div></div></div></div></div></div></div></div><div id='P571' data-mw-property='P571' data-mw-statements='[{"mainsnak":{"snaktype":"value","property":"P571","hash":"54f9f2dfdb95cd8aa4ce909ad6f87d94d540e61b","datavalue":{"value":{"time":"+2025-07-22T00:00:00Z","timezone":0,"before":0,"after":0,"precision":11,"calendarmodel":"http:\/\/www.wikidata.org\/entity\/Q1985727"},"type":"time"}},"type":"statement","id":"M170490533$2EC2F16C-07E5-4397-A527-7ADE337702E7","rank":"normal"}]' data-mw-formatvalue='{"{\"value\":{\"entity-type\":\"property\",\"numeric-id\":571,\"id\":\"P571\"},\"type\":\"wikibase-entityid\"}":{"text\/html":{"en":{"":"&lt;a target=\"_blank\" title=\"d:Special:EntityPage\/P571\" href=\"https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P571\"&gt;inception&lt;\/a&gt;"}},"text\/plain":{"en":{"":"inception"}}},"{\"value\":{\"time\":\"+2025-07-22T00:00:00Z\",\"timezone\":0,\"before\":0,\"after\":0,\"precision\":11,\"calendarmodel\":\"http:\\\/\\\/www.wikidata.org\\\/entity\\\/Q1985727\"},\"type\":\"time\"}":{"text\/html":{"en":{"P571":"22 July 2025"}},"text\/plain":{"en":{"P571":"22 July 2025"}}}}' class='wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P571 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed'><div class='wbmi-statements-widget'><div class='wbmi-statement-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/P571" href="https://www.wikidata.org/wiki/Special:EntityPage/P571">inception</a></bdi></h4></div></div></div><div class='wbmi-content-items-group'><div class='wbmi-item wbmi-item-read'><div class='wbmi-item-container'><div class='wbmi-entity-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi>22 July 2025</bdi></h4></div></div></div></div></div></div></div></div><div id='P1163' data-mw-property='P1163' data-mw-statements='[{"mainsnak":{"snaktype":"value","property":"P1163","hash":"636199d1806c7cdbae57b4d4298f38fade12d052","datavalue":{"value":"image\/svg+xml","type":"string"}},"type":"statement","id":"M170490533$9D559501-47A1-4EE6-B2F1-8A0F91913A66","rank":"normal"}]' data-mw-formatvalue='{"{\"value\":{\"entity-type\":\"property\",\"numeric-id\":1163,\"id\":\"P1163\"},\"type\":\"wikibase-entityid\"}":{"text\/html":{"en":{"":"&lt;a target=\"_blank\" title=\"d:Special:EntityPage\/P1163\" href=\"https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P1163\"&gt;media type&lt;\/a&gt;"}},"text\/plain":{"en":{"":"media type"}}},"{\"value\":\"image\\\/svg+xml\",\"type\":\"string\"}":{"text\/html":{"en":{"P1163":"image\/svg+xml"}},"text\/plain":{"en":{"P1163":"image\/svg+xml"}}}}' class='wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P1163 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed'><div class='wbmi-statements-widget'><div class='wbmi-statement-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/P1163" href="https://www.wikidata.org/wiki/Special:EntityPage/P1163">media type</a></bdi></h4></div></div></div><div class='wbmi-content-items-group'><div class='wbmi-item wbmi-item-read'><div class='wbmi-item-container'><div class='wbmi-entity-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi>image/svg+xml</bdi></h4></div></div></div></div></div></div></div></div></div></div></div></div></div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://commons.wikimedia.org/w/index.php?title=File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg&amp;oldid=1060469839">https://commons.wikimedia.org/w/index.php?title=File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg&amp;oldid=1060469839</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw-interface=""><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-user-shown">Hidden category: <ul><li><a href="/wiki/Category:CC-BY-4.0" title="Category:CC-BY-4.0">CC-BY-4.0</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			<footer id="footer" class="mw-footer" >
+				<ul id="footer-info" class="mw-portlet mw-portlet-footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 22 July 2025, at 12:15.</li>
+	<li id="footer-info-copyright">Files are available under licenses specified on their description page. All structured data from the file namespace is available under the <a rel="nofollow" class="external text" href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 License</a>; all unstructured text is available under the <a rel="nofollow" class="external text" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</a>;
+additional terms may apply.
+By using this site, you agree to the <a class="external text" data-mw-original-href="//foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use" href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use">Terms of Use</a> and the <a class="external text" data-mw-original-href="//foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy" href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy Policy</a>.</li>
+</ul>
+
+				<ul id="footer-places" class="mw-portlet mw-portlet-footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Commons:Welcome">About Wikimedia Commons</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Commons:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-legal-safety-contacts"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information">Legal &amp; safety contacts</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Code of Conduct</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/commons.wikimedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-mobileview"><a href="//commons.wikimedia.org/w/index.php?title=File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+				<ul id="footer-icons" class="mw-portlet mw-portlet-footer-icons noprint">
+	<li id="footer-copyrightico"><a href="https://www.wikimedia.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/static/images/footer/wikimedia-button.svg" width="84" height="29"><img src="/static/images/footer/wikimedia.svg" width="25" height="25" alt="Wikimedia Foundation" lang="en" loading="lazy"></picture></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/w/resources/assets/poweredby_mediawiki.svg" width="88" height="31"><img src="/w/resources/assets/mediawiki_compact.svg" alt="Powered by MediaWiki" lang="en" width="25" height="25" loading="lazy"></picture></a></li>
+</ul>
+
+			</footer>
+		</div>
+	</div> 
+</div> 
+<div class="vector-header-container vector-sticky-header-container no-font-mode-scale">
+	<div id="vector-sticky-header" class="vector-sticky-header">
+		<div class="vector-sticky-header-start">
+			<div class="vector-sticky-header-icon-start vector-button-flush-left" aria-hidden="true">
+				<button class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-sticky-header-search-toggle" tabindex="-1" data-event-name="ui.vector-sticky-search-form.icon"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>Search</span>
+			</button>
+		</div>
+			
+		<div role="search" class="vector-search-box-vue vector-search-box">
+			<div class="vector-typeahead-search-container">
+				<div class="cdx-typeahead-search">
+					<form action="/w/index.php" id="vector-sticky-search-form" class="cdx-search-input cdx-search-input--has-end-button">
+						<div  class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+							<div class="cdx-text-input cdx-text-input--has-start-icon">
+								<input
+									class="cdx-text-input__input mw-searchInput" autocomplete="off"
+									
+									type="search" name="search" placeholder="Search Wikimedia Commons">
+								<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+							</div>
+							<input type="hidden" name="title" value="Special:MediaSearch">
+						</div>
+						<button class="cdx-button cdx-search-input__end-button">Search</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-context-bar">
+				<nav aria-label="Contents" class="vector-toc-landmark">
+						
+					<div id="vector-sticky-header-toc" class="vector-dropdown mw-portlet mw-portlet-sticky-header-toc vector-sticky-header-toc vector-button-flush-left"  >
+						<input type="checkbox" id="vector-sticky-header-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-sticky-header-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"   >
+						<label id="vector-sticky-header-toc-label" for="vector-sticky-header-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
+						</label>
+						<div class="vector-dropdown-content">
+					
+						<div id="vector-sticky-header-toc-unpinned-container" class="vector-unpinned-container">
+						</div>
+					
+						</div>
+					</div>
+			</nav>
+				<div class="vector-sticky-header-context-bar-primary" aria-hidden="true" ><span lang="en" dir="ltr"><span class="mw-page-title-namespace">File</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">2025 Abgeordnetenwatch logo ohne Claim.svg</span></span></div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-end" aria-hidden="true">
+			<div class="vector-sticky-header-icons">
+				<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-talk-sticky-header" tabindex="-1" data-event-name="talk-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbles mw-ui-icon-wikimedia-speechBubbles cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-subject-sticky-header" tabindex="-1" data-event-name="subject-sticky-header"><span class="vector-icon mw-ui-icon-article mw-ui-icon-wikimedia-article cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-history-sticky-header" tabindex="-1" data-event-name="history-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-history mw-ui-icon-wikimedia-wikimedia-history cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only mw-watchlink" id="ca-watchstar-sticky-header" tabindex="-1" data-event-name="watch-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-star mw-ui-icon-wikimedia-wikimedia-star cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-edit-sticky-header" tabindex="-1" data-event-name="wikitext-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-wikiText mw-ui-icon-wikimedia-wikimedia-wikiText cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-ve-edit-sticky-header" tabindex="-1" data-event-name="ve-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-edit mw-ui-icon-wikimedia-wikimedia-edit cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-viewsource-sticky-header" tabindex="-1" data-event-name="ve-edit-protected-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-editLock mw-ui-icon-wikimedia-wikimedia-editLock cdx-button__icon"></span>
+
+<span></span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-buttons">
+				<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive" id="ca-addsection-sticky-header" tabindex="-1" data-event-name="addsection-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbleAdd-progressive mw-ui-icon-wikimedia-speechBubbleAdd-progressive cdx-button__icon"></span>
+
+<span>Add topic</span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-icon-end">
+				<div class="vector-user-links">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mw-portlet mw-portlet-dock-bottom emptyPortlet" id="p-dock-bottom">
+	<ul>
+		
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.codfw.main-54b47c5d45-zsrsn","wgBackendResponseTime":149,"wgPageParseReport":{"limitreport":{"cputime":"0.001","walltime":"0.001","ppvisitednodes":{"value":1,"limit":1000000},"revisionsize":{"value":640,"limit":2097152},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":1,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    0.000      1 -total"]},"scribunto":{"limitreport-timeusage":{"value":"0.011","limit":"10.000"},"limitreport-memusage":{"value":985481,"limit":52428800}},"cachereport":{"origin":"mw-web.codfw.main-54b47c5d45-zsrsn","timestamp":"20261028135056","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"ImageObject","contentUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/6\/6b\/2025_Abgeordnetenwatch_logo_ohne_Claim.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original","license":"https:\/\/creativecommons.org\/licenses\/by\/4.0","acquireLicensePage":"\/\/commons.wikimedia.org\/wiki\/File:2025_Abgeordnetenwatch_logo_ohne_Claim.svg","name":"2025 Abgeordnetenwatch logo ohne Claim","uploadDate":"2025-07-22 06:20:08","width":"512 px","height":"307 px","contentSize":8398,"encodingFormat":"image\/svg+xml"}</script>
+</body>
+</html>
